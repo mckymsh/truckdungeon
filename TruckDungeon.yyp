@@ -95,6 +95,14 @@
             }
         },
         {
+            "Key": "47588853-2a09-452e-9935-cec92af4e31a",
+            "Value": {
+                "id": "9d039e97-12df-4a8a-bcb7-015f88fce8e8",
+                "resourcePath": "objects\\obj_truck_smoke\\obj_truck_smoke.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "4abe6818-582c-4aae-83ac-55c076ce1b6f",
             "Value": {
                 "id": "264b002e-2c4a-44ad-b72b-ef3c70a08ecd",
@@ -107,6 +115,14 @@
             "Value": {
                 "id": "af7b70b2-d9e4-4f1f-a54f-0e4cc6d3d49f",
                 "resourcePath": "sprites\\spr_projectile_maingun\\spr_projectile_maingun.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "578224e3-0539-4af4-8422-a1f35e323c1d",
+            "Value": {
+                "id": "ac25d0dd-5454-4b3a-a5ed-f78966eb6773",
+                "resourcePath": "sprites\\spr_truck_smoke\\spr_truck_smoke.yy",
                 "resourceType": "GMSprite"
             }
         },

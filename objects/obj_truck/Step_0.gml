@@ -1,6 +1,6 @@
 if(keyboard_check(ord("W")))
 {
-	speed += 0.01*room_speed;
+	speed += 0.01*room_speed;	
 }
 if(keyboard_check(ord("S")))
 {
@@ -44,4 +44,24 @@ if(keyboard_check(ord("D")))
 if(!((keyboard_check(ord("A"))) || (keyboard_check(ord("D")))))
 {
 	sprite_index = spr_truck;
+}
+
+if (keyboard_check_pressed(ord("W"))) {
+// Smoke effect
+	var smoke1 = instance_create_layer
+		(
+			x+lengthdir_x(-60,image_angle+10), 
+			y+lengthdir_y(-60,image_angle+10),
+			"Effects", 
+			obj_truck_smoke
+		)
+	smoke1.image_angle = image_angle
+	var smoke2 = instance_create_layer
+		(
+			x+lengthdir_x(-60,image_angle-10), 
+			y+lengthdir_y(-60,image_angle-10),
+			"Effects", 
+			obj_truck_smoke
+		)
+	smoke2.image_angle = image_angle
 }
