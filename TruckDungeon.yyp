@@ -1,0 +1,294 @@
+{
+    "id": "3a660e1c-78d7-4c37-a613-768372852a1e",
+    "modelName": "GMProject",
+    "mvc": "1.0",
+    "IsDnDProject": false,
+    "configs": [
+        
+    ],
+    "option_ecma": false,
+    "parentProject": {
+        "id": "c852854f-472d-4291-a77a-3d37daf5f009",
+        "modelName": "GMProjectParent",
+        "mvc": "1.0",
+        "alteredResources": [
+            {
+                "Key": "ed6a955d-5826-4f98-a450-10b414266c27",
+                "Value": {
+                    "configDeltas": [
+                        "inherited"
+                    ],
+                    "id": "71882291-9715-4718-982a-219d9dea7251",
+                    "resourcePath": "options\\main\\options_main.yy",
+                    "resourceType": "GMMainOptions"
+                }
+            }
+        ],
+        "hiddenResources": [
+            
+        ],
+        "projectPath": "${base_project}"
+    },
+    "resources": [
+        {
+            "Key": "025e8c71-57b8-4da6-a51c-7e6e3b0c3255",
+            "Value": {
+                "id": "788fd08a-bfbb-4dca-aa31-7793d5a33df4",
+                "resourcePath": "objects\\obj_truck\\obj_truck.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "07f08fbd-d695-4590-a2fe-cb7dd650635c",
+            "Value": {
+                "id": "899704fe-3117-4c8a-acc4-626d890df368",
+                "resourcePath": "views\\07f08fbd-d695-4590-a2fe-cb7dd650635c.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "08709949-561b-4ceb-b7e8-04f7e9cfb8b9",
+            "Value": {
+                "id": "9c354397-da69-46a2-935f-68bdeae2a5d9",
+                "resourcePath": "views\\08709949-561b-4ceb-b7e8-04f7e9cfb8b9.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "0dba1a85-e312-4aa0-b281-6fb2e95179ab",
+            "Value": {
+                "id": "59025ad8-205d-4672-b961-4379641b77d7",
+                "resourcePath": "objects\\obj_controller\\obj_controller.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "173d3d8c-4155-4196-afdf-9e0368b18f1d",
+            "Value": {
+                "id": "a85cce64-ff30-465b-aa58-d7097b95a98c",
+                "resourcePath": "sprites\\spr_weapon_mainguns\\spr_weapon_mainguns.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "1f63fdc1-834b-4c17-b704-c13bfd66ddb3",
+            "Value": {
+                "id": "47f00c88-4fa0-466a-b8d2-7d423a22595c",
+                "resourcePath": "views\\1f63fdc1-834b-4c17-b704-c13bfd66ddb3.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "25c22329-dd80-49c4-9754-f6c51ab441ab",
+            "Value": {
+                "id": "179632bf-a300-4ac4-b477-4dbb52e1420d",
+                "resourcePath": "rooms\\rm_main\\rm_main.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "3af7a035-2d67-4e7e-88c1-a68f5bea2f46",
+            "Value": {
+                "id": "509641f1-999b-4106-a29e-7463e774b231",
+                "resourcePath": "views\\3af7a035-2d67-4e7e-88c1-a68f5bea2f46.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "4abe6818-582c-4aae-83ac-55c076ce1b6f",
+            "Value": {
+                "id": "264b002e-2c4a-44ad-b72b-ef3c70a08ecd",
+                "resourcePath": "views\\4abe6818-582c-4aae-83ac-55c076ce1b6f.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "4c72f755-8920-4980-a858-9f851df048f8",
+            "Value": {
+                "id": "af7b70b2-d9e4-4f1f-a54f-0e4cc6d3d49f",
+                "resourcePath": "sprites\\spr_projectile_maingun\\spr_projectile_maingun.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "606d3d01-d20c-4ded-8c5f-0d38cb2b5446",
+            "Value": {
+                "id": "a798e370-39a4-4f69-8556-36fa311e1d33",
+                "resourcePath": "views\\606d3d01-d20c-4ded-8c5f-0d38cb2b5446.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "88394c4b-bf1c-4109-b021-2bab06c76573",
+            "Value": {
+                "id": "2a25700e-61cd-44c3-9681-b9e2db3f04d3",
+                "resourcePath": "views\\88394c4b-bf1c-4109-b021-2bab06c76573.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "8a759c0c-4bed-42bc-92c6-9c5eccf7dadf",
+            "Value": {
+                "id": "8f11112b-b9b8-49be-a22f-895198d7de88",
+                "resourcePath": "views\\8a759c0c-4bed-42bc-92c6-9c5eccf7dadf.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "8d3d5f1f-c96e-4769-9c32-1cac8ba26e85",
+            "Value": {
+                "id": "caf3d120-2756-430c-9b71-7bc53b1971ba",
+                "resourcePath": "objects\\obj_maingun_muzzle_flash\\obj_maingun_muzzle_flash.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "99a70ae4-1d66-49f5-9eb2-98196fef8c4a",
+            "Value": {
+                "id": "98674380-9bda-4056-ba72-95da054c4ab9",
+                "resourcePath": "views\\99a70ae4-1d66-49f5-9eb2-98196fef8c4a.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "a84f48ad-af09-4ac6-a1ac-2214383fb18c",
+            "Value": {
+                "id": "72fd56e7-812a-46e3-8fa8-ae05213c1b66",
+                "resourcePath": "views\\a84f48ad-af09-4ac6-a1ac-2214383fb18c.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "a9188620-a624-4a5a-83ae-a1b53faf038b",
+            "Value": {
+                "id": "8b5c82cf-fbd3-4143-8a6e-a746dca5e92a",
+                "resourcePath": "options\\linux\\options_linux.yy",
+                "resourceType": "GMLinuxOptions"
+            }
+        },
+        {
+            "Key": "ab1c8fab-1dd9-4e52-b804-53403d5e903c",
+            "Value": {
+                "id": "7f11bbd7-3815-401a-87b5-5897dc478ff1",
+                "resourcePath": "views\\ab1c8fab-1dd9-4e52-b804-53403d5e903c.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "b49e6937-6355-41d4-9b92-75aa2aac8065",
+            "Value": {
+                "id": "9fc77311-2ed0-4352-b7f4-323d90ed7a29",
+                "resourcePath": "views\\b49e6937-6355-41d4-9b92-75aa2aac8065.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "be0b7f84-2183-4bce-a24a-64cad1a4a7e5",
+            "Value": {
+                "id": "6480c294-fdae-414f-947b-69decdbb62d2",
+                "resourcePath": "views\\be0b7f84-2183-4bce-a24a-64cad1a4a7e5.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "cc98d028-7bdd-4680-85f3-c87a7baa481e",
+            "Value": {
+                "id": "4d93e6d1-c366-4197-9ecb-7c32414b3ab2",
+                "resourcePath": "options\\windows\\options_windows.yy",
+                "resourceType": "GMWindowsOptions"
+            }
+        },
+        {
+            "Key": "cf44b016-59e4-4c0d-aed5-6d2c282f7bd4",
+            "Value": {
+                "id": "4900fa89-ba2b-41cc-8b55-4a5aa15b0683",
+                "resourcePath": "sprites\\spr_truck\\spr_truck.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "d219bd5d-9ca2-40f4-91df-b7ff26be320d",
+            "Value": {
+                "id": "f1bed191-fef4-4354-b062-f17b46b55300",
+                "resourcePath": "objects\\obj_weapon_mainguns\\obj_weapon_mainguns.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "d34bc94d-6042-4a77-8ebf-26d3efc5bb6b",
+            "Value": {
+                "id": "f0b3f66d-e707-4e9a-81e4-18f205e17d29",
+                "resourcePath": "objects\\obj_projectile_maingun\\obj_projectile_maingun.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "da238749-d5d7-4e1d-b93c-475f03713b9c",
+            "Value": {
+                "id": "3108f61c-1e09-46c0-bee5-99b184ed19ed",
+                "resourcePath": "sprites\\spr_maingun_muzzle_flash\\spr_maingun_muzzle_flash.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "dcf3da40-1ad1-4060-8335-beeb547d709b",
+            "Value": {
+                "id": "e7476758-581c-44fe-bc33-8977c92a8bbe",
+                "resourcePath": "sprites\\spr_truck_right\\spr_truck_right.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "e1a0f3de-0f66-4743-b0d2-dc332b2a434c",
+            "Value": {
+                "id": "76d9ff5c-4b8d-45ab-9a53-717b8a8bf6a4",
+                "resourcePath": "views\\e1a0f3de-0f66-4743-b0d2-dc332b2a434c.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "f418569b-3bdd-4706-a0e4-364317f54032",
+            "Value": {
+                "id": "bbb61ea7-3ad8-4a8f-8025-82bbfb61893a",
+                "resourcePath": "options\\mac\\options_mac.yy",
+                "resourceType": "GMMacOptions"
+            }
+        },
+        {
+            "Key": "f4ee8636-3b59-4f76-b811-fd76f0e0b912",
+            "Value": {
+                "id": "83d1f14a-24a7-496a-ace7-ff5ea89811ba",
+                "resourcePath": "sprites\\spr_truck_left\\spr_truck_left.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "f6ebe34a-9b67-45f4-a84f-c2ea0eba4569",
+            "Value": {
+                "id": "7961a82c-aa29-40fa-9dcd-dec0657e6716",
+                "resourcePath": "views\\f6ebe34a-9b67-45f4-a84f-c2ea0eba4569.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "fa66f238-9951-4b49-9b53-97b73b814627",
+            "Value": {
+                "id": "7de38db7-04b6-485a-9456-7a69aabce021",
+                "resourcePath": "views\\fa66f238-9951-4b49-9b53-97b73b814627.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "fd43d12e-5619-44c5-9f49-3650f37097fb",
+            "Value": {
+                "id": "79fdb788-492d-4cf9-8931-e1776e301a74",
+                "resourcePath": "sprites\\spr_truck_parts\\spr_truck_parts.yy",
+                "resourceType": "GMSprite"
+            }
+        }
+    ],
+    "script_order": [
+        
+    ],
+    "tutorial": ""
+}
