@@ -27,7 +27,6 @@ if(!((keyboard_check(ord("W"))) || (keyboard_check(ord("S")))))
 
 if(keyboard_check(ord("A")))
 {
-	sprite_index = spr_truck_left;
 	if(1 <= abs(speed))
 	{
 		image_angle += turning_ratio*sign(speed)*sqrt(abs(speed))*turning_increment;	
@@ -35,19 +34,15 @@ if(keyboard_check(ord("A")))
 }
 if(keyboard_check(ord("D")))
 {
-	sprite_index = spr_truck_right;
 	if(1 <= abs(speed))
 	{
 		image_angle -= turning_ratio*sign(speed)*sqrt(abs(speed))*turning_increment;	
 	}
 }
-if(!((keyboard_check(ord("A"))) || (keyboard_check(ord("D")))))
-{
-	sprite_index = spr_truck;
-}
 
-if (keyboard_check_pressed(ord("W"))) {
-// Smoke effect
+if (keyboard_check_pressed(ord("W")))
+{
+	// Smoke effect
 	var smoke1 = instance_create_layer
 		(
 			x+lengthdir_x(-60,image_angle+10), 

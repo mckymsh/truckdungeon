@@ -63,6 +63,14 @@
             }
         },
         {
+            "Key": "171866a0-4316-4e22-ba23-e8bf3c3baac6",
+            "Value": {
+                "id": "27b1d0bc-6448-474f-9b3f-852d1f1d7033",
+                "resourcePath": "sprites\\spr_wheels_right\\spr_wheels_right.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "173d3d8c-4155-4196-afdf-9e0368b18f1d",
             "Value": {
                 "id": "a85cce64-ff30-465b-aa58-d7097b95a98c",
@@ -247,11 +255,11 @@
             }
         },
         {
-            "Key": "dcf3da40-1ad1-4060-8335-beeb547d709b",
+            "Key": "decef997-c38a-4e76-8bd9-7ed8c45f7737",
             "Value": {
-                "id": "e7476758-581c-44fe-bc33-8977c92a8bbe",
-                "resourcePath": "sprites\\spr_truck_right\\spr_truck_right.yy",
-                "resourceType": "GMSprite"
+                "id": "574ce493-4801-4008-86cc-5c3ad5971913",
+                "resourcePath": "objects\\obj_truck_wheels\\obj_truck_wheels.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -274,7 +282,7 @@
             "Key": "f4ee8636-3b59-4f76-b811-fd76f0e0b912",
             "Value": {
                 "id": "83d1f14a-24a7-496a-ace7-ff5ea89811ba",
-                "resourcePath": "sprites\\spr_truck_left\\spr_truck_left.yy",
+                "resourcePath": "sprites\\spr_wheels_left\\spr_wheels_left.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -298,7 +306,7 @@
             "Key": "fd43d12e-5619-44c5-9f49-3650f37097fb",
             "Value": {
                 "id": "79fdb788-492d-4cf9-8931-e1776e301a74",
-                "resourcePath": "sprites\\spr_truck_parts\\spr_truck_parts.yy",
+                "resourcePath": "sprites\\spr_wheels_straight\\spr_wheels_straight.yy",
                 "resourceType": "GMSprite"
             }
         }
