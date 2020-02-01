@@ -1,23 +1,23 @@
 if(keyboard_check(ord("W")))
 {
-	speed += 0.01*room_speed;	
+	speed += acceleration_ratio*room_speed;	
 }
 if(keyboard_check(ord("S")))
 {
 	if(speed >= 1)
 	{
-		speed /= 2;
+		speed *= braking_ratio;
 	}
 	else 
 	{
-		speed -= 0.01*room_speed;
+		speed -= reverse_acceleration_ratio*room_speed;
 	}
 }
 if(!((keyboard_check(ord("W"))) || (keyboard_check(ord("S")))))
 {
 	if((speed < -1) || (1 < speed))
 	{
-		speed *= 0.95;
+		speed *= deceleration_ratio;
 	}
 	else
 	{
