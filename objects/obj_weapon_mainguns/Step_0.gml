@@ -4,7 +4,7 @@ if(mouse_check_button(mb_left))
 	{
 		canShootA = false;
 		canShootB = false;
-		alarm[1] = room_speed/fire_speed_ratio;
+		alarm[1] = fire_speed_ratio*room_speed;
 		var flash = instance_create_layer
 		(
 			x+lengthdir_x(60,image_angle+12), 
@@ -28,7 +28,7 @@ if(mouse_check_button(mb_left))
 	{
 		canShootA = false;
 		canShootB = false;
-		alarm[0] = room_speed/fire_speed_ratio;
+		alarm[0] = fire_speed_ratio*room_speed;
 		var flash = instance_create_layer
 		(
 			x+lengthdir_x(60,image_angle-12), 

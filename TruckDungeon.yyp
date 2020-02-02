@@ -79,6 +79,14 @@
             }
         },
         {
+            "Key": "1aedc8dd-573c-49c2-afc8-104913bc4317",
+            "Value": {
+                "id": "f2b71edf-9b7e-4b88-84c1-f94fd94c7d58",
+                "resourcePath": "sprites\\spr_weapon_minigun\\spr_weapon_minigun.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "1f63fdc1-834b-4c17-b704-c13bfd66ddb3",
             "Value": {
                 "id": "47f00c88-4fa0-466a-b8d2-7d423a22595c",
@@ -92,6 +100,14 @@
                 "id": "179632bf-a300-4ac4-b477-4dbb52e1420d",
                 "resourcePath": "rooms\\rm_main\\rm_main.yy",
                 "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "2c798266-6def-4488-80c7-6e9f959199d8",
+            "Value": {
+                "id": "3852f652-5c64-4cc4-a048-348195044e84",
+                "resourcePath": "sprites\\spr_weapon_minigun_hot\\spr_weapon_minigun_hot.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -175,6 +191,14 @@
             }
         },
         {
+            "Key": "9d9cb7d2-af70-4b39-a767-bce969491860",
+            "Value": {
+                "id": "39bfc260-c55c-4fdf-a721-17de57d4531f",
+                "resourcePath": "sprites\\spr_weapon_minigun_overheat\\spr_weapon_minigun_overheat.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "a84f48ad-af09-4ac6-a1ac-2214383fb18c",
             "Value": {
                 "id": "72fd56e7-812a-46e3-8fa8-ae05213c1b66",
@@ -196,6 +220,14 @@
                 "id": "7f11bbd7-3815-401a-87b5-5897dc478ff1",
                 "resourcePath": "views\\ab1c8fab-1dd9-4e52-b804-53403d5e903c.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "ac9597a2-0528-4518-b1c1-14d3d4de8833",
+            "Value": {
+                "id": "c0cabfab-08b7-46ad-9d20-2d26ac5fdae4",
+                "resourcePath": "objects\\obj_weapon_minigun\\obj_weapon_minigun.yy",
+                "resourceType": "GMObject"
             }
         },
         {
