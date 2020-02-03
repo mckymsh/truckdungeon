@@ -159,6 +159,14 @@
             }
         },
         {
+            "Key": "73ca9525-41ef-425e-9b61-175c09571d0e",
+            "Value": {
+                "id": "c4d46f1a-5fb1-4463-8f3f-3f21349e1d85",
+                "resourcePath": "objects\\obj_minigun_muzzle_flash\\obj_minigun_muzzle_flash.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "88394c4b-bf1c-4109-b021-2bab06c76573",
             "Value": {
                 "id": "2a25700e-61cd-44c3-9681-b9e2db3f04d3",

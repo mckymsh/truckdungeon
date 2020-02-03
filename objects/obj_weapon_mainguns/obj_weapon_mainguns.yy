@@ -110,7 +110,7 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "1\/15",
+            "value": "1\/10",
             "varName": "fire_speed_ratio",
             "varType": 0
         }

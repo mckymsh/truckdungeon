@@ -2,50 +2,47 @@ if(mouse_check_button(mb_left))
 {
 	if(canShootA)
 	{
+		flashA.visible = true;
 		canShootA = false;
 		canShootB = false;
 		alarm[1] = fire_speed_ratio*room_speed;
-		var flash = instance_create_layer
+		
+		var bullet = instance_create_depth
 		(
-			x+lengthdir_x(60,image_angle+12), 
-			y+lengthdir_y(60,image_angle+12),
-			"Effects", 
-			obj_maingun_muzzle_flash
-		)
-		flash.image_angle = image_angle;
-		var bullet = instance_create_layer
-		(
-			x+lengthdir_x(42, image_angle+18), 
-			y+lengthdir_y(42,image_angle+18), 
-			"Instances", 
+			x+lengthdir_x(50, image_angle+15), 
+			y+lengthdir_y(50, image_angle+15), 
+			depth+1, 
 			obj_projectile_maingun
 		)		
 		bullet.image_angle = image_angle;
 		bullet.direction = image_angle;
-		bullet.speed = room_speed/2;
+		bullet.speed = room_speed/3;
 	}
+	else
+	{
+		flashA.visible = false;
+	}
+	
 	if(canShootB)
 	{
+		flashB.visible = true;
 		canShootA = false;
 		canShootB = false;
 		alarm[0] = fire_speed_ratio*room_speed;
-		var flash = instance_create_layer
+		
+		var bullet= instance_create_depth
 		(
-			x+lengthdir_x(60,image_angle-12), 
-			y+lengthdir_y(60,image_angle-12),
-			"Effects", 
-			obj_maingun_muzzle_flash
-		)
-		flash.image_angle = image_angle;
-		var bullet= instance_create_layer
-		(
-			x+lengthdir_x(42, image_angle-18), 
-			y+lengthdir_y(42,image_angle-18), 
-			"Instances", 
+			x+lengthdir_x(50, image_angle-15), 
+			y+lengthdir_y(50,image_angle-15), 
+			depth+1,  
 			obj_projectile_maingun
 		)
 		bullet.image_angle = image_angle;
 		bullet.direction = image_angle;
-		bullet.speed = room_speed/2;
+		bullet.speed = room_speed/3;
+	}
+	else
+	{
+		flashB.visible = false;
 	}
 }
