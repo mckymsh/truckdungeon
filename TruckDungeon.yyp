@@ -143,6 +143,14 @@
             }
         },
         {
+            "Key": "51e032cb-3f9d-4b2a-9a55-3a387f7e6d92",
+            "Value": {
+                "id": "db6b08d2-d709-4374-9c54-fc9a55dd82c9",
+                "resourcePath": "sprites\\spr_weapon_rocketlauncher\\spr_weapon_rocketlauncher.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "578224e3-0539-4af4-8422-a1f35e323c1d",
             "Value": {
                 "id": "ac25d0dd-5454-4b3a-a5ed-f78966eb6773",
@@ -191,6 +199,14 @@
             }
         },
         {
+            "Key": "8d0fa462-6577-45ed-9939-38c32e080baa",
+            "Value": {
+                "id": "9623c5bd-6f17-4bc6-919f-89114dca0fda",
+                "resourcePath": "objects\\obj_projectile_rocket\\obj_projectile_rocket.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "8d3d5f1f-c96e-4769-9c32-1cac8ba26e85",
             "Value": {
                 "id": "caf3d120-2756-430c-9b71-7bc53b1971ba",
@@ -211,6 +227,14 @@
             "Value": {
                 "id": "39bfc260-c55c-4fdf-a721-17de57d4531f",
                 "resourcePath": "sprites\\spr_weapon_minigun_overheat\\spr_weapon_minigun_overheat.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "a6400e10-223f-4bfa-935c-e1118d8f3b8f",
+            "Value": {
+                "id": "dfb63a7e-7e0b-496b-8467-4dcf60276ee6",
+                "resourcePath": "sprites\\spr_projectile_rocket\\spr_projectile_rocket.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -252,6 +276,14 @@
                 "id": "9fc77311-2ed0-4352-b7f4-323d90ed7a29",
                 "resourcePath": "views\\b49e6937-6355-41d4-9b92-75aa2aac8065.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "b7bb5770-d1a4-41da-9334-f55c3f0971cd",
+            "Value": {
+                "id": "6eca0adf-7dfb-4b7e-91a4-011d886940f6",
+                "resourcePath": "objects\\obj_weapon_rocketlauncher\\obj_weapon_rocketlauncher.yy",
+                "resourceType": "GMObject"
             }
         },
         {

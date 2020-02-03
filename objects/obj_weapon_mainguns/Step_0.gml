@@ -1,4 +1,4 @@
-if(mouse_check_button(mb_left))
+if(mouse_check_button(mb_right))
 {
 	if(canShootA)
 	{
@@ -43,4 +43,9 @@ if(mouse_check_button(mb_left))
 	{
 		flashB.visible = false;
 	}
+}
+else
+{
+	flashA.visible = false;
+	flashB.visible = false;
 }

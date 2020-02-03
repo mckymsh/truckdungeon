@@ -1,28 +1,28 @@
 {
-    "id": "d34bc94d-6042-4a77-8ebf-26d3efc5bb6b",
+    "id": "8d0fa462-6577-45ed-9939-38c32e080baa",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "obj_projectile_maingun",
+    "name": "obj_projectile_rocket",
     "eventList": [
         {
-            "id": "4a45f8d6-95ab-4973-a61a-79a1073548b9",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
-            "eventtype": 7,
-            "m_owner": "d34bc94d-6042-4a77-8ebf-26d3efc5bb6b"
-        },
-        {
-            "id": "ad1080f8-201e-47e6-ba7f-2a65c59c16cb",
+            "id": "61ea5138-4219-44f7-a3bd-48984bda02cd",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
             "eventtype": 0,
-            "m_owner": "d34bc94d-6042-4a77-8ebf-26d3efc5bb6b"
+            "m_owner": "8d0fa462-6577-45ed-9939-38c32e080baa"
+        },
+        {
+            "id": "6d83b162-7ca4-414d-aef7-3dd4a1b23565",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 3,
+            "m_owner": "8d0fa462-6577-45ed-9939-38c32e080baa"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
@@ -43,7 +43,7 @@
     "physicsStartAwake": true,
     "properties": [
         {
-            "id": "a17041da-3651-4138-adb5-bd2bebe62e93",
+            "id": "b35ea097-1675-4616-be93-0c7c063bd2e1",
             "modelName": "GMObjectProperty",
             "mvc": "1.0",
             "listItems": null,
@@ -52,12 +52,12 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "10",
+            "value": "50",
             "varName": "damage",
             "varType": 0
         },
         {
-            "id": "4fd1c02c-e11f-4321-874f-6a8484cdabec",
+            "id": "0d930837-e160-49cd-9141-e0c1f071816d",
             "modelName": "GMObjectProperty",
             "mvc": "1.0",
             "listItems": null,
@@ -66,12 +66,12 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "(room_speed\/3)+(abs(obj_truck.speed))",
-            "varName": "projectile_speed",
-            "varType": 4
+            "value": "True",
+            "varName": "followMouse",
+            "varType": 3
         }
     ],
     "solid": false,
-    "spriteId": "4c72f755-8920-4980-a858-9f851df048f8",
+    "spriteId": "a6400e10-223f-4bfa-935c-e1118d8f3b8f",
     "visible": true
 }
