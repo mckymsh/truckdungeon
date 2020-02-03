@@ -53,6 +53,36 @@
             "enumb": 0,
             "eventtype": 2,
             "m_owner": "ac9597a2-0528-4518-b1c1-14d3d4de8833"
+        },
+        {
+            "id": "597a82a5-6386-45d1-9894-051ffce8b5ab",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 1,
+            "eventtype": 2,
+            "m_owner": "ac9597a2-0528-4518-b1c1-14d3d4de8833"
+        },
+        {
+            "id": "9307fa89-299e-4b85-9d0a-1bf1773d0e69",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 2,
+            "eventtype": 2,
+            "m_owner": "ac9597a2-0528-4518-b1c1-14d3d4de8833"
+        },
+        {
+            "id": "c47594fb-92df-41dc-8f9b-c6c6c0808f53",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 3,
+            "eventtype": 2,
+            "m_owner": "ac9597a2-0528-4518-b1c1-14d3d4de8833"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
@@ -93,7 +123,7 @@
             "resourceFilter": 1023,
             "value": "60",
             "varName": "initial_fire_delay",
-            "varType": 0
+            "varType": 1
         },
         {
             "id": "e320dbb9-6076-42f0-b1c7-4094243f1713",
@@ -108,6 +138,48 @@
             "value": "0",
             "varName": "canShoot",
             "varType": 3
+        },
+        {
+            "id": "eb2540c1-03f0-4e37-91f9-00c84ea55a4c",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "overheated",
+            "varType": 3
+        },
+        {
+            "id": "67237b50-11c9-40ee-a432-1a4421cd8a9b",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "120",
+            "varName": "cooldown_delay",
+            "varType": 1
+        },
+        {
+            "id": "ed577859-e5e2-48d2-9735-08159fb52363",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "600",
+            "varName": "overheat_time",
+            "varType": 1
         }
     ],
     "solid": false,

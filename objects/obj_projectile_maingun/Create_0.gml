@@ -1,0 +1,1 @@
+speed = projectile_speed;

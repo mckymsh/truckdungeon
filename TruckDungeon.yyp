@@ -167,6 +167,14 @@
             }
         },
         {
+            "Key": "781bc313-856d-44ce-8ead-63d19372d993",
+            "Value": {
+                "id": "07dcbce8-a0ab-4c39-889d-039a1004e65a",
+                "resourcePath": "sprites\\spr_reticle\\spr_reticle.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "88394c4b-bf1c-4109-b021-2bab06c76573",
             "Value": {
                 "id": "2a25700e-61cd-44c3-9681-b9e2db3f04d3",
@@ -291,6 +299,14 @@
             "Value": {
                 "id": "f0b3f66d-e707-4e9a-81e4-18f205e17d29",
                 "resourcePath": "objects\\obj_projectile_maingun\\obj_projectile_maingun.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "da104dd5-92cb-41a0-b46f-621a27bba464",
+            "Value": {
+                "id": "5ba2d0f2-248e-48e8-a1a8-f20381c2f8cd",
+                "resourcePath": "objects\\obj_projectile_minigun\\obj_projectile_minigun.yy",
                 "resourceType": "GMObject"
             }
         },

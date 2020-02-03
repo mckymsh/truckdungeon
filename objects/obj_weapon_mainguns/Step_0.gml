@@ -16,7 +16,6 @@ if(mouse_check_button(mb_left))
 		)		
 		bullet.image_angle = image_angle;
 		bullet.direction = image_angle;
-		bullet.speed = room_speed/3;
 	}
 	else
 	{
@@ -39,7 +38,6 @@ if(mouse_check_button(mb_left))
 		)
 		bullet.image_angle = image_angle;
 		bullet.direction = image_angle;
-		bullet.speed = room_speed/3;
 	}
 	else
 	{
