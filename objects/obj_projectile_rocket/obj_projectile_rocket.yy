@@ -23,6 +23,26 @@
             "enumb": 0,
             "eventtype": 3,
             "m_owner": "8d0fa462-6577-45ed-9939-38c32e080baa"
+        },
+        {
+            "id": "387b9054-f099-4edb-b926-6bc2311810b2",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 2,
+            "eventtype": 3,
+            "m_owner": "8d0fa462-6577-45ed-9939-38c32e080baa"
+        },
+        {
+            "id": "04604bc9-9b3d-43da-ad07-2426329edd59",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 2,
+            "m_owner": "8d0fa462-6577-45ed-9939-38c32e080baa"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
@@ -69,6 +89,20 @@
             "value": "True",
             "varName": "followMouse",
             "varType": 3
+        },
+        {
+            "id": "0d8aafad-217f-4107-812a-f2f73757d817",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "64",
+            "varName": "mouse_follow_radius",
+            "varType": 1
         }
     ],
     "solid": false,
