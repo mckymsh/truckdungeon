@@ -60,3 +60,31 @@ if (keyboard_check_pressed(ord("W")))
 		)
 	smoke2.image_angle = image_angle
 }
+
+if(keyboard_check_pressed(vk_space))
+{
+	if(current_weapon = weapon.minigun)
+	{
+		instance_destroy(obj_weapon_minigun, false);
+		instance_create_depth
+		(
+			x + lengthdir_x(20, image_angle-180),
+			y + lengthdir_y(20, image_angle-180),
+			-2,
+			obj_weapon_rocketlauncher
+		);
+		current_weapon = weapon.rocketlauncher;
+	}
+	else if(current_weapon = weapon.rocketlauncher)
+	{
+		instance_destroy(obj_weapon_rocketlauncher, false);
+		instance_create_depth
+		(
+			x + lengthdir_x(20, image_angle-180),
+			y + lengthdir_y(20, image_angle-180),
+			-2,
+			obj_weapon_minigun
+		);
+		current_weapon = weapon.minigun;
+	}
+}
