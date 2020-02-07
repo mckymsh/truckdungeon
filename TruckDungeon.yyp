@@ -111,11 +111,27 @@
             }
         },
         {
+            "Key": "332e2aa8-9e19-4b34-ac9b-ace67c3e5e14",
+            "Value": {
+                "id": "9de96c67-0e1f-4fb6-9877-af2869f97a80",
+                "resourcePath": "sprites\\spr_towgre\\spr_towgre.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "3af7a035-2d67-4e7e-88c1-a68f5bea2f46",
             "Value": {
                 "id": "509641f1-999b-4106-a29e-7463e774b231",
                 "resourcePath": "views\\3af7a035-2d67-4e7e-88c1-a68f5bea2f46.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "3e2527b9-0444-4988-981b-6aee4ac9f620",
+            "Value": {
+                "id": "e3894364-59c2-4faa-9ce2-3ae11e9cf005",
+                "resourcePath": "objects\\obj_enemy_towgre\\obj_enemy_towgre.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -403,6 +419,14 @@
             "Value": {
                 "id": "79fdb788-492d-4cf9-8931-e1776e301a74",
                 "resourcePath": "sprites\\spr_wheels_straight\\spr_wheels_straight.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "ff39f791-3bc9-414b-b9d7-9f5cbdd39cee",
+            "Value": {
+                "id": "b8383708-aac8-44ff-8653-ce472a558756",
+                "resourcePath": "sprites\\spr_projectile_claw\\spr_projectile_claw.yy",
                 "resourceType": "GMSprite"
             }
         }
