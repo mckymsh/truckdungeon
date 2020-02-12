@@ -1,4 +1,5 @@
 if(hp < 1)
 {
-	instance_destroy();
+	destroyed = true;
+	sprite_index = spr_towgre_destroyed;
 }

@@ -183,6 +183,14 @@
             }
         },
         {
+            "Key": "67c56cdf-1a06-48db-8ef4-48399cfc6739",
+            "Value": {
+                "id": "990eba26-68eb-4f5f-bdd9-c3b716128848",
+                "resourcePath": "objects\\obj_towgre_destroyed\\obj_towgre_destroyed.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "73ca9525-41ef-425e-9b61-175c09571d0e",
             "Value": {
                 "id": "c4d46f1a-5fb1-4463-8f3f-3f21349e1d85",
@@ -404,6 +412,14 @@
                 "id": "7961a82c-aa29-40fa-9dcd-dec0657e6716",
                 "resourcePath": "views\\f6ebe34a-9b67-45f4-a84f-c2ea0eba4569.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "f7f9dd6d-4cb7-4284-bd11-c38acfd5142d",
+            "Value": {
+                "id": "66665706-8b93-470e-928a-99b6272f64dd",
+                "resourcePath": "sprites\\spr_towgre_destroyed\\spr_towgre_destroyed.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
