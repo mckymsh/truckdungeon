@@ -70,7 +70,7 @@ if(keyboard_check_pressed(vk_space))
 		(
 			x + lengthdir_x(20, image_angle-180),
 			y + lengthdir_y(20, image_angle-180),
-			-2,
+			depth-2,
 			obj_weapon_rocketlauncher
 		);
 		current_weapon = weapon.rocketlauncher;
@@ -82,7 +82,7 @@ if(keyboard_check_pressed(vk_space))
 		(
 			x + lengthdir_x(20, image_angle-180),
 			y + lengthdir_y(20, image_angle-180),
-			-2,
+			depth-2,
 			obj_weapon_minigun
 		);
 		current_weapon = weapon.minigun;
