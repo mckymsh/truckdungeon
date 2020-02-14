@@ -31,6 +31,14 @@
     },
     "resources": [
         {
+            "Key": "023f057a-46bc-4d72-b3d2-2ae9a6f844f7",
+            "Value": {
+                "id": "02d29ea0-4d7f-48a2-86d0-f2049b6bb578",
+                "resourcePath": "sprites\\spr_dragon_tank\\spr_dragon_tank.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "025e8c71-57b8-4da6-a51c-7e6e3b0c3255",
             "Value": {
                 "id": "788fd08a-bfbb-4dca-aa31-7793d5a33df4",
@@ -63,6 +71,14 @@
             }
         },
         {
+            "Key": "13380358-c6cc-429f-b04c-2d970416f635",
+            "Value": {
+                "id": "c8b86c82-f7d5-4c28-9db7-312ed9f26b74",
+                "resourcePath": "views\\13380358-c6cc-429f-b04c-2d970416f635.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "171866a0-4316-4e22-ba23-e8bf3c3baac6",
             "Value": {
                 "id": "27b1d0bc-6448-474f-9b3f-852d1f1d7033",
@@ -84,6 +100,14 @@
                 "id": "f2b71edf-9b7e-4b88-84c1-f94fd94c7d58",
                 "resourcePath": "sprites\\spr_weapon_minigun\\spr_weapon_minigun.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "1ce90e89-4e96-4006-85d3-b8c4795c69c0",
+            "Value": {
+                "id": "35c9182c-7b51-438d-81e1-272303582aed",
+                "resourcePath": "views\\1ce90e89-4e96-4006-85d3-b8c4795c69c0.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
@@ -159,6 +183,14 @@
             }
         },
         {
+            "Key": "4d67fc5e-9562-47b2-9643-29a191f88195",
+            "Value": {
+                "id": "fb337600-ec6e-43d2-80a6-a658296d7cfb",
+                "resourcePath": "sprites\\spr_zombike\\spr_zombike.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "51e032cb-3f9d-4b2a-9a55-3a387f7e6d92",
             "Value": {
                 "id": "db6b08d2-d709-4374-9c54-fc9a55dd82c9",
@@ -207,6 +239,14 @@
             }
         },
         {
+            "Key": "83a9a40c-aa86-4bd9-9700-30a5e959e469",
+            "Value": {
+                "id": "f263f4f1-5902-4801-b0ff-d015f6c39e38",
+                "resourcePath": "views\\83a9a40c-aa86-4bd9-9700-30a5e959e469.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "88394c4b-bf1c-4109-b021-2bab06c76573",
             "Value": {
                 "id": "2a25700e-61cd-44c3-9681-b9e2db3f04d3",
@@ -236,6 +276,14 @@
                 "id": "caf3d120-2756-430c-9b71-7bc53b1971ba",
                 "resourcePath": "objects\\obj_maingun_muzzle_flash\\obj_maingun_muzzle_flash.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "8eb85e51-be2e-41b9-ad91-8e8365d7af3f",
+            "Value": {
+                "id": "9612f1d8-148c-4b2d-817d-c178af111ffe",
+                "resourcePath": "views\\8eb85e51-be2e-41b9-ad91-8e8365d7af3f.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
@@ -308,6 +356,14 @@
                 "id": "6eca0adf-7dfb-4b7e-91a4-011d886940f6",
                 "resourcePath": "objects\\obj_weapon_rocketlauncher\\obj_weapon_rocketlauncher.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "b8b67ace-0d5a-464b-8949-2db4296758bd",
+            "Value": {
+                "id": "3f3988aa-7140-4632-85bd-355f0d9b00a1",
+                "resourcePath": "views\\b8b67ace-0d5a-464b-8949-2db4296758bd.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
@@ -404,6 +460,22 @@
                 "id": "83d1f14a-24a7-496a-ace7-ff5ea89811ba",
                 "resourcePath": "sprites\\spr_wheels_left\\spr_wheels_left.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "f5d11909-d2ce-4b6c-84e8-b21e17ada923",
+            "Value": {
+                "id": "fa282609-37f8-4644-b6ce-02d164e90cbb",
+                "resourcePath": "sprites\\spr_zombike_destroyed\\spr_zombike_destroyed.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "f655a725-0008-45fc-bc92-034259759d4a",
+            "Value": {
+                "id": "66bed700-2deb-4a41-a35c-c62e7e0ecfda",
+                "resourcePath": "views\\f655a725-0008-45fc-bc92-034259759d4a.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
