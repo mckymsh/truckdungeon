@@ -167,6 +167,14 @@
             }
         },
         {
+            "Key": "47bfa32a-ea84-47ba-adf2-b525675e3594",
+            "Value": {
+                "id": "6e68fa8f-19fb-4c35-bc76-8342990b157b",
+                "resourcePath": "scripts\\scr_towgre_attack_sequence\\scr_towgre_attack_sequence.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "4abe6818-582c-4aae-83ac-55c076ce1b6f",
             "Value": {
                 "id": "264b002e-2c4a-44ad-b72b-ef3c70a08ecd",
@@ -383,6 +391,14 @@
             }
         },
         {
+            "Key": "cf4396ae-a24c-4f30-9fdc-09dc08a47b2b",
+            "Value": {
+                "id": "1196f2e7-bef1-47e3-bcc7-975885d47610",
+                "resourcePath": "objects\\obj_projectile_claw\\obj_projectile_claw.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "cf44b016-59e4-4c0d-aed5-6d2c282f7bd4",
             "Value": {
                 "id": "4900fa89-ba2b-41cc-8b55-4a5aa15b0683",
@@ -404,6 +420,14 @@
                 "id": "f1bed191-fef4-4354-b062-f17b46b55300",
                 "resourcePath": "objects\\obj_weapon_mainguns\\obj_weapon_mainguns.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "d25ec3bc-7c3d-417f-b539-acb9c94cb311",
+            "Value": {
+                "id": "d6fda7bc-c49d-44e0-abfd-1c99f97e526c",
+                "resourcePath": "views\\d25ec3bc-7c3d-417f-b539-acb9c94cb311.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
@@ -443,6 +467,14 @@
             "Value": {
                 "id": "76d9ff5c-4b8d-45ab-9a53-717b8a8bf6a4",
                 "resourcePath": "views\\e1a0f3de-0f66-4743-b0d2-dc332b2a434c.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "eb5bc79a-35a9-413c-aedb-d628e661c065",
+            "Value": {
+                "id": "35925d0f-ac19-4663-ab36-823568132e8b",
+                "resourcePath": "views\\eb5bc79a-35a9-413c-aedb-d628e661c065.yy",
                 "resourceType": "GMFolder"
             }
         },
