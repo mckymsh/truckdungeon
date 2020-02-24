@@ -43,6 +43,16 @@
             "enumb": 0,
             "eventtype": 4,
             "m_owner": "025e8c71-57b8-4da6-a51c-7e6e3b0c3255"
+        },
+        {
+            "id": "5f8d7aef-44cf-4ffb-a3cd-46886353d6b2",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "3e2527b9-0444-4988-981b-6aee4ac9f620",
+            "enumb": 0,
+            "eventtype": 4,
+            "m_owner": "025e8c71-57b8-4da6-a51c-7e6e3b0c3255"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
@@ -186,6 +196,20 @@
             "resourceFilter": 1023,
             "value": ".75",
             "varName": "bounce_ratio",
+            "varType": 0
+        },
+        {
+            "id": "9bc72cfc-43e0-49e0-9486-dc6aeab9c4ef",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "1000",
+            "varName": "hp",
             "varType": 0
         }
     ],

@@ -53,6 +53,56 @@
             "enumb": 2,
             "eventtype": 3,
             "m_owner": "3e2527b9-0444-4988-981b-6aee4ac9f620"
+        },
+        {
+            "id": "e3459a1a-05c0-4e2f-9356-5280d73c6f31",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "f7527823-f5e2-466f-ad32-5a572d923dd6",
+            "enumb": 0,
+            "eventtype": 4,
+            "m_owner": "3e2527b9-0444-4988-981b-6aee4ac9f620"
+        },
+        {
+            "id": "07fbe2f2-14eb-4f63-bde7-534d9786c7c4",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 1,
+            "eventtype": 3,
+            "m_owner": "3e2527b9-0444-4988-981b-6aee4ac9f620"
+        },
+        {
+            "id": "6752de63-fe36-491c-8b7f-93fd6eabe57d",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 40,
+            "eventtype": 7,
+            "m_owner": "3e2527b9-0444-4988-981b-6aee4ac9f620"
+        },
+        {
+            "id": "1c851d9b-f124-40f4-b6fc-e16a6d776446",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 2,
+            "m_owner": "3e2527b9-0444-4988-981b-6aee4ac9f620"
+        },
+        {
+            "id": "16d0d97c-8054-467c-bcb9-b34d9d18ba9d",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 1,
+            "eventtype": 2,
+            "m_owner": "3e2527b9-0444-4988-981b-6aee4ac9f620"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
@@ -112,6 +162,48 @@
             "resourceFilter": 1023,
             "value": "0",
             "varName": "coordinate_selected",
+            "varType": 3
+        },
+        {
+            "id": "6a113d36-1a6d-45ea-abe8-67a8e06ccb9d",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "location_reached",
+            "varType": 3
+        },
+        {
+            "id": "4aa37800-d201-46bb-be59-58c10f371d34",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "1.5",
+            "varName": "bounce_ratio",
+            "varType": 0
+        },
+        {
+            "id": "2dc08dd3-98b0-43fd-8e03-e8954443a5f6",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "claw_out",
             "varType": 3
         }
     ],

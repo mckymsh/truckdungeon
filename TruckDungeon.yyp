@@ -178,7 +178,7 @@
             "Key": "47bfa32a-ea84-47ba-adf2-b525675e3594",
             "Value": {
                 "id": "6e68fa8f-19fb-4c35-bc76-8342990b157b",
-                "resourcePath": "scripts\\scr_towgre_attack_sequence\\scr_towgre_attack_sequence.yy",
+                "resourcePath": "scripts\\scr_towgre_fire_claw\\scr_towgre_fire_claw.yy",
                 "resourceType": "GMScript"
             }
         },
