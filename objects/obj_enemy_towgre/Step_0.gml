@@ -7,6 +7,7 @@ if(!destroyed)
 	if(abs(x-newX)<128 && abs(y-newY)<128)
 	{
 		location_reached = true;
+		
 	}
 	
 	if(location_reached)

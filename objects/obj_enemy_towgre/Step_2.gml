@@ -9,5 +9,5 @@ if(hp < 1)
 if(claw_out)
 {
 	draw_set_colour(c_black);
-	draw_line_width(x, y, current_claw.x, current_claw.y, 6);
+	draw_line_width(x, y, current_claw.x, current_claw.y, 10);
 }
