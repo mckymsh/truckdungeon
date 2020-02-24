@@ -135,11 +135,27 @@
             }
         },
         {
+            "Key": "262b9c84-9c70-4460-a7bb-3f8da8988014",
+            "Value": {
+                "id": "55b18c94-eb98-434d-95e5-b66f0524be9c",
+                "resourcePath": "views\\262b9c84-9c70-4460-a7bb-3f8da8988014.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "2c798266-6def-4488-80c7-6e9f959199d8",
             "Value": {
                 "id": "3852f652-5c64-4cc4-a048-348195044e84",
                 "resourcePath": "sprites\\spr_weapon_minigun_hot\\spr_weapon_minigun_hot.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "2e0a7d89-986b-4021-b693-d6b58b55ab64",
+            "Value": {
+                "id": "6b9d04d3-989d-4443-863a-2be0ecc94554",
+                "resourcePath": "objects\\obj_pickup_minigun\\obj_pickup_minigun.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -287,6 +303,14 @@
             }
         },
         {
+            "Key": "8b09a28c-7507-4e30-bb72-51fb104aec51",
+            "Value": {
+                "id": "829de54b-b4a4-484f-81c4-3c3d5c592477",
+                "resourcePath": "views\\8b09a28c-7507-4e30-bb72-51fb104aec51.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "8d0fa462-6577-45ed-9939-38c32e080baa",
             "Value": {
                 "id": "9623c5bd-6f17-4bc6-919f-89114dca0fda",
@@ -311,6 +335,14 @@
             }
         },
         {
+            "Key": "9210414c-1650-4de4-93e4-1bce915a30d9",
+            "Value": {
+                "id": "bc5dd332-8eb3-4118-b53c-27ad43007b4b",
+                "resourcePath": "sprites\\spr_pickup_rocketlauncher\\spr_pickup_rocketlauncher.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "99a70ae4-1d66-49f5-9eb2-98196fef8c4a",
             "Value": {
                 "id": "98674380-9bda-4056-ba72-95da054c4ab9",
@@ -324,6 +356,14 @@
                 "id": "39bfc260-c55c-4fdf-a721-17de57d4531f",
                 "resourcePath": "sprites\\spr_weapon_minigun_overheat\\spr_weapon_minigun_overheat.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "a365ce8d-2281-43f1-9c96-f36b9f364ae3",
+            "Value": {
+                "id": "11d54eea-7494-4a90-bd2b-d4cb17fef2ec",
+                "resourcePath": "objects\\obj_pickup_rocketlauncher\\obj_pickup_rocketlauncher.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -407,6 +447,14 @@
             }
         },
         {
+            "Key": "c0519ce7-7c86-4c0c-8ea6-1c78721d82e7",
+            "Value": {
+                "id": "bd53aec4-d159-43ac-986b-12fc6952ddef",
+                "resourcePath": "sprites\\spr_pickup_minigun\\spr_pickup_minigun.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "cc98d028-7bdd-4680-85f3-c87a7baa481e",
             "Value": {
                 "id": "4d93e6d1-c366-4197-9ecb-7c32414b3ab2",
@@ -428,6 +476,14 @@
                 "id": "4900fa89-ba2b-41cc-8b55-4a5aa15b0683",
                 "resourcePath": "sprites\\spr_truck\\spr_truck.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "cfa4f099-6da7-4c82-9561-74a4e1d421a7",
+            "Value": {
+                "id": "540f13a3-0a1a-4b27-8542-d7534b4203aa",
+                "resourcePath": "scripts\\scr_truck_weaponchange\\scr_truck_weaponchange.yy",
+                "resourceType": "GMScript"
             }
         },
         {

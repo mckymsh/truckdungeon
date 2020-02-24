@@ -61,30 +61,39 @@ if (keyboard_check_pressed(ord("W")))
 	smoke2.image_angle = image_angle
 }
 
-if(keyboard_check_pressed(vk_space))
-{
-	if(current_weapon = weapon.minigun)
+/*
+if(current_weapon == weapon.none)
+{	
+	if(have_minigun)
 	{
-		instance_destroy(obj_weapon_minigun, false);
-		instance_create_depth
-		(
-			x + lengthdir_x(20, image_angle-180),
-			y + lengthdir_y(20, image_angle-180),
-			depth-2,
-			obj_weapon_rocketlauncher
-		);
-		current_weapon = weapon.rocketlauncher;
-	}
-	else if(current_weapon = weapon.rocketlauncher)
-	{
-		instance_destroy(obj_weapon_rocketlauncher, false);
-		instance_create_depth
-		(
-			x + lengthdir_x(20, image_angle-180),
-			y + lengthdir_y(20, image_angle-180),
-			depth-2,
-			obj_weapon_minigun
-		);
 		current_weapon = weapon.minigun;
 	}
+	else if(have_rocketlauncher)
+	{
+		current_weapon = weapon.rocketlauncher;
+	}
+	scr_truck_weaponchange();
 }
+*/
+
+if(keyboard_check_pressed(vk_space))
+{	
+	if(current_weapon == weapon.rocketlauncher)
+	{
+		if(have_minigun)
+		{
+			current_weapon = weapon.minigun;
+			scr_truck_weaponchange();
+		}
+	}
+	else if(current_weapon == weapon.minigun)
+	{
+		if(have_rocketlauncher)
+		{
+			current_weapon = weapon.rocketlauncher;
+			scr_truck_weaponchange();
+		}
+	}	
+}
+
+

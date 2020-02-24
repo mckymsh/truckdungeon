@@ -211,6 +211,34 @@
             "value": "1000",
             "varName": "hp",
             "varType": 0
+        },
+        {
+            "id": "a9bd30e2-2e3a-47a2-95b1-3694d8b14f9d",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "False",
+            "varName": "have_minigun",
+            "varType": 3
+        },
+        {
+            "id": "9226483c-d0d1-4717-9723-c1764949ec96",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "have_rocketlauncher",
+            "varType": 3
         }
     ],
     "solid": false,
