@@ -1,0 +1,1 @@
+speed = bounce_ratio * -speed;

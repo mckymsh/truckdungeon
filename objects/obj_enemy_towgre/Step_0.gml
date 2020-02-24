@@ -6,8 +6,6 @@ if(!destroyed)
 
 	if(!coordinate_selected)
 	{
-		coordinate_selected = true;
-		
 		var sides = choose(true, false);
 		if(sides)
 		{
@@ -36,6 +34,9 @@ if(!destroyed)
 			);
 		}
 		
+		coordinate_selected = true;
+		
+		show_debug_message("sides:" + string(sides));
 		show_debug_message("newX:" + string(newX));
 		show_debug_message("newY:" + string(newY));
 	}
@@ -44,6 +45,9 @@ if(!destroyed)
 	{
 		// turn towards coordinates
 		direction = point_direction(x, y, newX, newY);
+		
+		show_debug_message("newX:" + string(newX));
+		show_debug_message("newY:" + string(newY));
 
 		// move to coordinates
 		speed = 0.2*room_speed;
