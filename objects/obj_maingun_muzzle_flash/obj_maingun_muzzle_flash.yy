@@ -51,7 +51,22 @@
     "physicsShape": 1,
     "physicsShapePoints": null,
     "physicsStartAwake": true,
-    "properties": null,
+    "properties": [
+        {
+            "id": "802dfdc7-41a2-4884-91c6-5d8f54568610",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "obj_weapon_mainguns",
+            "varName": "target_object",
+            "varType": 5
+        }
+    ],
     "solid": false,
     "spriteId": "da238749-d5d7-4e1d-b93c-475f03713b9c",
     "visible": true

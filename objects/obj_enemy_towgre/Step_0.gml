@@ -1,6 +1,3 @@
-newX = 1500;
-newY = 1500;
-
 if(!destroyed)
 {
 	// bang bang
@@ -9,34 +6,36 @@ if(!destroyed)
 
 	if(!coordinate_selected)
 	{
+		coordinate_selected = true;
+		
 		var sides = choose(true, false);
 		if(sides)
 		{
 			newX = choose
-				(
-					view_xport[0]+sprite_width/2,
-					view_xport[0]+view_wport[0]-sprite_width/2
-				);
+			(
+				view_xport[0]+sprite_width/2,
+				view_xport[0]+view_wport[0]-sprite_width/2
+			);
 			newY = irandom_range
-				(
-					view_yport[0]+sprite_height/2,
-					view_yport[0]+view_hport[0]-sprite_height/2
-				);
+			(
+				view_yport[0]+sprite_height/2,
+				view_yport[0]+view_hport[0]-sprite_height/2
+			);
 		}
 		if(!sides)
 		{
 			newX = irandom_range
-				(
-					view_xport[0]+sprite_width/2,
-					view_xport[0]+view_wport[0]-sprite_width/2
-				);
+			(
+				view_xport[0]+sprite_width/2,
+				view_xport[0]+view_wport[0]-sprite_width/2
+			);
 			newY = choose
-				(
-					view_yport[0]+sprite_height/2,
-					view_yport[0]+view_hport[0]-sprite_height/2
-				);
+			(
+				view_yport[0]+sprite_height/2,
+				view_yport[0]+view_hport[0]-sprite_height/2
+			);
 		}
-		coordinate_selected = true;
+		
 		show_debug_message("newX:" + string(newX));
 		show_debug_message("newY:" + string(newY));
 	}
@@ -51,7 +50,7 @@ if(!destroyed)
 	}
 	else
 	{
-		//coordinate_selected = false;
+		// coordinate_selected = false;
 		// rotate to player
 		direction = point_direction(x, y, obj_truck.x, obj_truck.y);
 

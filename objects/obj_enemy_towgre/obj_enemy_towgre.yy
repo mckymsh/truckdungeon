@@ -99,6 +99,20 @@
             "value": "0",
             "varName": "destroyed",
             "varType": 3
+        },
+        {
+            "id": "428308cf-a492-4f1e-b2b8-c8dd37d288b6",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "coordinate_selected",
+            "varType": 3
         }
     ],
     "solid": false,

@@ -1,2 +1,0 @@
-dist = point_distance(x, y, obj_weapon_mainguns.x, obj_weapon_mainguns.y);
-angleDiff = angle_difference(point_direction(obj_weapon_mainguns.x, obj_weapon_mainguns.y, x, y), obj_weapon_mainguns.image_angle);
