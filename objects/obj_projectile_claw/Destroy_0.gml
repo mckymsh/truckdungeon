@@ -1,0 +1,1 @@
+obj_truck.stuck = false;

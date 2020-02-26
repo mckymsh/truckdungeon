@@ -1,45 +1,8 @@
 if(!coordinate_selected)
 {
-	/*
-	var sides = choose(true, false);
-	if(sides)
-	{
-		newX = choose
-		(
-			obj_truck.x - camera_get_view_width(0)/2 + sprite_width/2,
-			obj_truck.x + camera_get_view_width(0)/2 - sprite_width/2
-			// camera_get_view_x(0)+sprite_width/2,
-			// camera_get_view_x(0)+camera_get_view_width(0)-sprite_width/2
-		);
-		newY = irandom_range
-		(
-			obj_truck.y - camera_get_view_height(0)/2 + sprite_height/2,
-			obj_truck.y + camera_get_view_height(0)/2 - sprite_height/2
-			// camera_get_view_y(0)+sprite_height/2,
-			// camera_get_view_y(0)+camera_get_view_height(0)-sprite_height/2
-		);
-	}
-	if(!sides)
-	{
-		newX = irandom_range
-		(
-			obj_truck.x - camera_get_view_width(0)/2 + sprite_width,
-			obj_truck.x + camera_get_view_width(0)/2 - sprite_width
-			// camera_get_view_x(0)+sprite_width/2,
-			// camera_get_view_x(0)+camera_get_view_width(0)-sprite_width/2
-		);
-		newY = choose
-		(
-			obj_truck.y - camera_get_view_height(0)/2 + sprite_height/2,
-			obj_truck.y + camera_get_view_height(0)/2 - sprite_height/2
-			// camera_get_view_y(0)+sprite_height/2,
-			// camera_get_view_y(0)+camera_get_view_height(0)-sprite_height/2
-		);
-	}
-	*/
-	
 	// This hackish crap should choose the closest corner.
 	
+	// Find distances to corners
 	var TLD = point_distance
 	(
 		x, y, 
@@ -65,6 +28,7 @@ if(!coordinate_selected)
 		obj_truck.y + camera_get_view_height(0)/2 - sprite_height*2
 	);
 	
+	// Pick closest one, assign coordinates
 	if(min(TRD, BLD, BRD) > TLD)
 	{
 		newX = obj_truck.x + camera_get_view_width(0)/2 - sprite_width*2;
@@ -86,8 +50,8 @@ if(!coordinate_selected)
 		newY = obj_truck.y + camera_get_view_height(0)/2 - sprite_height*2;
 	}
 	
-	
 	/*
+	// This chooses a random corner
 	newX = choose
 	(
 		obj_truck.x - camera_get_view_width(0)/2 + sprite_width,
@@ -100,5 +64,6 @@ if(!coordinate_selected)
 	);
 	*/
 	
+	// So it doesn't run this code all the time, slowing things down
 	coordinate_selected = true;
 }

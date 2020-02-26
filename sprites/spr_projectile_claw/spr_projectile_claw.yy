@@ -6,10 +6,10 @@
     "For3D": false,
     "HTile": false,
     "VTile": false,
-    "bbox_bottom": 27,
+    "bbox_bottom": 31,
     "bbox_left": 0,
-    "bbox_right": 30,
-    "bbox_top": 6,
+    "bbox_right": 31,
+    "bbox_top": 0,
     "bboxmode": 0,
     "colkind": 1,
     "coltolerance": 0,
@@ -38,8 +38,8 @@
             ]
         }
     ],
-    "gridX": 2,
-    "gridY": 2,
+    "gridX": 4,
+    "gridY": 4,
     "height": 32,
     "layers": [
         {

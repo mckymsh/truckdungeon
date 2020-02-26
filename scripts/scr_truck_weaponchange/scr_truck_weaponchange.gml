@@ -1,3 +1,6 @@
+// Putting this as a script makes the truck code cleaner,
+// but more importantly, makes it so the pickups can call this
+// to auto-switch when they get picked up.
 switch(current_weapon)
 {
 	case weapon.none:

@@ -6,6 +6,7 @@ if(!destroyed)
 
 	if(abs(x-newX)<128 && abs(y-newY)<128)
 	{
+		// So it doesn't run this all the time
 		location_reached = true;		
 	}
 	
@@ -18,12 +19,15 @@ if(!destroyed)
 		direction = point_direction(x, y, obj_truck.x, obj_truck.y);
 
 		// fire claw
-		alarm[1] = room_speed/4;
+		if(alarm[1] < 0)
+		{
+			alarm[1] = 0.25*room_speed;
+		}
 	}
 	else
 	{
 		// move to coordinates
-		speed = 0.2*room_speed;
+		speed += acceleration_ratio*room_speed;
 		
 		// turn towards coordinates
 		direction = point_direction(x, y, newX, newY);

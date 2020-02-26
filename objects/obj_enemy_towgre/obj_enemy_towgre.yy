@@ -132,7 +132,7 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "100",
+            "value": "101",
             "varName": "hp",
             "varType": 1
         },
@@ -205,6 +205,34 @@
             "value": "0",
             "varName": "claw_out",
             "varType": 3
+        },
+        {
+            "id": "b4eeeab3-ab37-4b9f-8a45-9a6ce424f18c",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0.15",
+            "varName": "max_forward_speed_ratio",
+            "varType": 0
+        },
+        {
+            "id": "2beaae38-4e13-4305-89ec-c00164890e8b",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0.01",
+            "varName": "acceleration_ratio",
+            "varType": 0
         }
     ],
     "solid": false,

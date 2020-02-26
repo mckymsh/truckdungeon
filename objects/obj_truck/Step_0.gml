@@ -61,21 +61,7 @@ if (keyboard_check_pressed(ord("W")))
 	smoke2.image_angle = image_angle
 }
 
-/*
-if(current_weapon == weapon.none)
-{	
-	if(have_minigun)
-	{
-		current_weapon = weapon.minigun;
-	}
-	else if(have_rocketlauncher)
-	{
-		current_weapon = weapon.rocketlauncher;
-	}
-	scr_truck_weaponchange();
-}
-*/
-
+// Check the create event for the weapon enum
 if(keyboard_check_pressed(vk_space))
 {	
 	if(current_weapon == weapon.rocketlauncher)

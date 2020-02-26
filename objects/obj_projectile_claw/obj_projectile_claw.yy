@@ -13,6 +13,76 @@
             "enumb": 0,
             "eventtype": 0,
             "m_owner": "cf4396ae-a24c-4f30-9fdc-09dc08a47b2b"
+        },
+        {
+            "id": "cb32d48b-9599-4eaf-86d0-bd4f563f83ab",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 2,
+            "eventtype": 3,
+            "m_owner": "cf4396ae-a24c-4f30-9fdc-09dc08a47b2b"
+        },
+        {
+            "id": "1c535245-b2a8-44bc-be12-81b4848cefc2",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "025e8c71-57b8-4da6-a51c-7e6e3b0c3255",
+            "enumb": 0,
+            "eventtype": 4,
+            "m_owner": "cf4396ae-a24c-4f30-9fdc-09dc08a47b2b"
+        },
+        {
+            "id": "5f9dd5cf-ce2b-417b-aa0c-c35d6ed697c4",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 2,
+            "m_owner": "cf4396ae-a24c-4f30-9fdc-09dc08a47b2b"
+        },
+        {
+            "id": "7c17b7f4-c73e-4851-a7ca-83e562f8a358",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 73,
+            "eventtype": 8,
+            "m_owner": "cf4396ae-a24c-4f30-9fdc-09dc08a47b2b"
+        },
+        {
+            "id": "659b39ff-61cc-43cb-a3e5-a587102658fd",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 3,
+            "m_owner": "cf4396ae-a24c-4f30-9fdc-09dc08a47b2b"
+        },
+        {
+            "id": "8a6b328c-8f95-489a-bfbc-abf073105cf8",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 1,
+            "m_owner": "cf4396ae-a24c-4f30-9fdc-09dc08a47b2b"
+        },
+        {
+            "id": "6ff1f51a-5b01-431d-b542-c98d0b0131fe",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 7,
+            "m_owner": "cf4396ae-a24c-4f30-9fdc-09dc08a47b2b"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
@@ -31,7 +101,64 @@
     "physicsShape": 1,
     "physicsShapePoints": null,
     "physicsStartAwake": true,
-    "properties": null,
+    "properties": [
+        {
+            "id": "43b97873-4593-4811-a0c0-0b4b91c0be2a",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "stuck",
+            "varType": 3
+        },
+        {
+            "id": "3b2e49e7-74cf-4f5c-a106-052dde089b5c",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "5.0",
+            "varName": "stick_time_ratio",
+            "varType": 0
+        },
+        {
+            "id": "868c0e8c-9d1f-43a9-831d-d323dbf5ce5b",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0.25",
+            "varName": "max_speed_ratio",
+            "varType": 0
+        },
+        {
+            "id": "873660e1-5f4b-4660-adde-014ce3a0d234",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0.75",
+            "varName": "acceleration_ratio",
+            "varType": 0
+        }
+    ],
     "solid": false,
     "spriteId": "ff39f791-3bc9-414b-b9d7-9f5cbdd39cee",
     "visible": true
