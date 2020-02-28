@@ -21,7 +21,7 @@ if(!destroyed)
 		// fire claw
 		if(alarm[1] < 0)
 		{
-			alarm[1] = 0.25*room_speed;
+			alarm[1] = initial_fire_delay_ratio*room_speed;
 		}
 	}
 	else

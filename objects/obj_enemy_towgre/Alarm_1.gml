@@ -6,6 +6,6 @@ if(!claw_out)
 
 if(claw_out && !instance_exists(current_claw))
 {
-	alarm[0] = room_speed;
+	alarm[0] = fire_frequency_ratio*room_speed;
 	claw_out = false;
 }
