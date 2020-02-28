@@ -82,4 +82,15 @@ if(keyboard_check_pressed(vk_space))
 	}	
 }
 
+if(stuck)
+{
+	var claw = instance_nearest(x, y, obj_projectile_claw)
+	var towgre = claw.source_towgre;
+	motion_add
+	(
+		point_direction(x, y, towgre.x, towgre.y), 
+		claw.drag_speed_ratio*room_speed
+	);
+}
+
 
