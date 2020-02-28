@@ -84,6 +84,9 @@ if(keyboard_check_pressed(vk_space))
 
 if(stuck)
 {
+	acceleration_ratio = 0.005;
+	max_forward_speed_ratio = 0.1;
+
 	var claw = instance_nearest(x, y, obj_projectile_claw)
 	var towgre = claw.source_towgre;
 	motion_add
@@ -91,6 +94,11 @@ if(stuck)
 		point_direction(x, y, towgre.x, towgre.y), 
 		claw.drag_speed_ratio*room_speed
 	);
+}
+else
+{
+	acceleration_ratio = 0.01;
+	max_forward_speed_ratio = 0.2;
 }
 
 

@@ -65,16 +65,6 @@
             "m_owner": "025e8c71-57b8-4da6-a51c-7e6e3b0c3255"
         },
         {
-            "id": "d3d5299c-cd16-4c62-b4f6-33303b2ee22e",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "cf4396ae-a24c-4f30-9fdc-09dc08a47b2b",
-            "enumb": 0,
-            "eventtype": 4,
-            "m_owner": "025e8c71-57b8-4da6-a51c-7e6e3b0c3255"
-        },
-        {
             "id": "4cdda53f-156a-4032-808f-d501ef815806",
             "modelName": "GMEvent",
             "mvc": "1.0",
@@ -182,7 +172,7 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "0.5",
+            "value": "0.75",
             "varName": "braking_ratio",
             "varType": 0
         },
