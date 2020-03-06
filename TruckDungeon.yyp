@@ -95,6 +95,14 @@
             }
         },
         {
+            "Key": "1a15789a-2c15-46e7-91a1-6e49796ae64f",
+            "Value": {
+                "id": "45d81736-24e4-4679-a86b-4a06c9fb7e80",
+                "resourcePath": "sprites\\spr_wallBlock3\\spr_wallBlock3.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "1aedc8dd-573c-49c2-afc8-104913bc4317",
             "Value": {
                 "id": "f2b71edf-9b7e-4b88-84c1-f94fd94c7d58",
@@ -164,6 +172,14 @@
                 "id": "9de96c67-0e1f-4fb6-9877-af2869f97a80",
                 "resourcePath": "sprites\\spr_towgre\\spr_towgre.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "398cc9f9-0595-49b7-91b4-816d0e3b5bed",
+            "Value": {
+                "id": "6d92cfe5-18aa-4719-9bb3-7c3b36b2c843",
+                "resourcePath": "views\\398cc9f9-0595-49b7-91b4-816d0e3b5bed.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
@@ -279,6 +295,14 @@
             }
         },
         {
+            "Key": "82376593-3cb7-461a-9a86-bad0d35a12fc",
+            "Value": {
+                "id": "caa22621-80b5-4a73-9c54-2e430be8b334",
+                "resourcePath": "views\\82376593-3cb7-461a-9a86-bad0d35a12fc.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "83a9a40c-aa86-4bd9-9700-30a5e959e469",
             "Value": {
                 "id": "f263f4f1-5902-4801-b0ff-d015f6c39e38",
@@ -291,14 +315,6 @@
             "Value": {
                 "id": "2a25700e-61cd-44c3-9681-b9e2db3f04d3",
                 "resourcePath": "views\\88394c4b-bf1c-4109-b021-2bab06c76573.yy",
-                "resourceType": "GMFolder"
-            }
-        },
-        {
-            "Key": "8a759c0c-4bed-42bc-92c6-9c5eccf7dadf",
-            "Value": {
-                "id": "8f11112b-b9b8-49be-a22f-895198d7de88",
-                "resourcePath": "views\\8a759c0c-4bed-42bc-92c6-9c5eccf7dadf.yy",
                 "resourceType": "GMFolder"
             }
         },
@@ -356,14 +372,6 @@
                 "id": "39bfc260-c55c-4fdf-a721-17de57d4531f",
                 "resourcePath": "sprites\\spr_weapon_minigun_overheat\\spr_weapon_minigun_overheat.yy",
                 "resourceType": "GMSprite"
-            }
-        },
-        {
-            "Key": "a20722e9-9db5-421d-90c6-eabe193c40a1",
-            "Value": {
-                "id": "6c6b0bec-ee8a-44a4-b3d9-1e4b0dcab402",
-                "resourcePath": "views\\25c22329-dd80-49c4-9754-f6c51ab441ab-room.yy",
-                "resourceType": "GMFolder"
             }
         },
         {
@@ -476,6 +484,14 @@
                 "id": "4d93e6d1-c366-4197-9ecb-7c32414b3ab2",
                 "resourcePath": "options\\windows\\options_windows.yy",
                 "resourceType": "GMWindowsOptions"
+            }
+        },
+        {
+            "Key": "cd709314-06be-431b-be80-37e69f1437f9",
+            "Value": {
+                "id": "61bd124d-1337-4fe8-a364-4e3a42f595af",
+                "resourcePath": "objects\\obj_wallBlock3\\obj_wallBlock3.yy",
+                "resourceType": "GMObject"
             }
         },
         {
