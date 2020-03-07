@@ -9,5 +9,7 @@ truck = instance_create_layer(2560, 2688, "Instances", obj_truck);
 
 truck.direction = 90;
 
-//comment this script out to remove walls
-scr_create_grid();
+if (room == rm_test2){
+	scr_create_grid();
+	alarm[0] = gameTimer*room_speed;
+}

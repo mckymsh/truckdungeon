@@ -13,6 +13,7 @@ ds_stack_push(stack,17);
 var isVisited = false;
 var checking;
 
+//rooms is a debug variable and can be removed later
 rooms[0] = -1;
 var numRooms = 0;
 
@@ -101,17 +102,19 @@ while(!ds_stack_empty(stack)){
 	
 }
 
-show_debug_message("Rooms");
-show_debug_message(numRooms);
-show_debug_message(rooms);
+//show_debug_message("Rooms");
+//show_debug_message(numRooms);
+//show_debug_message(rooms);
 
 if (numRooms < 10){
-	show_debug_message("Too few rooms");
+	//show_debug_message("Too few rooms");
 	game_restart();
+	exit;
 }
 if (numRooms > 25){
-	show_debug_message("Too many rooms");
+	//show_debug_message("Too many rooms");
 	game_restart();
+	exit;
 }
 
 //Spawns the rooms
@@ -121,6 +124,8 @@ if (numRooms > 25){
 
 deadEnds = ds_list_create();
 corridors = ds_list_create();
+ds_list_clear(deadEnds);
+ds_list_clear(corridors);
 //Could potentially further differentiate rooms for spawning
 
 for (var i = 0; i < roomsAcross; i++){
@@ -141,18 +146,18 @@ for (var i = 0; i < roomsAcross; i++){
 						} else {
 							// no left, no up, no right, down
 							scr_spawn_walls(6);
-							ds_list_add(deadEnds,[i,j]);
+							ds_list_add(deadEnds,j*roomsAcross+i);
 						}
 					} else {
 						// no left, no up, right
 						if (j+1 > roomsTall-1 || ds_grid_get(grid,i,j+1) == 0) {
 							// no left, no up, right, no down
 							scr_spawn_walls(1);
-							ds_list_add(deadEnds,[i,j]);
+							ds_list_add(deadEnds,j*roomsAcross+i);
 						} else {
 							// no left, no up, right, down
 							scr_spawn_walls(8);
-							ds_list_add(corridors,[i,j]);
+							ds_list_add(corridors,j*roomsAcross+i);
 						}
 					}
 				} else {
@@ -162,22 +167,22 @@ for (var i = 0; i < roomsAcross; i++){
 						if (j+1 > roomsTall-1 || ds_grid_get(grid,i,j+1) == 0) {
 							// no left, up, no right, no down
 							scr_spawn_walls(4);
-							ds_list_add(deadEnds,[i,j]);
+							ds_list_add(deadEnds,j*roomsAcross+i);
 						} else {
 							// no left, up, no right, down
 							scr_spawn_walls(5);
-							ds_list_add(corridors,[i,j]);
+							ds_list_add(corridors,j*roomsAcross+i);
 						}
 					} else {
 						// no left, up, right
 						if (j+1 > roomsTall-1 || ds_grid_get(grid,i,j+1) == 0) {
 							// no left, up, right, no down
 							scr_spawn_walls(7);
-							ds_list_add(corridors,[i,j]);
+							ds_list_add(corridors,j*roomsAcross+i);
 						} else {
 							// no left, up, right, down
 							scr_spawn_walls(14);
-							ds_list_add(corridors,[i,j]);
+							ds_list_add(corridors,j*roomsAcross+i);
 						}
 					}
 				}
@@ -190,22 +195,22 @@ for (var i = 0; i < roomsAcross; i++){
 						if (j+1 > roomsTall-1 || ds_grid_get(grid,i,j+1) == 0) {
 							// left, no up, no right, no down
 							scr_spawn_walls(3);
-							ds_list_add(deadEnds,[i,j]);
+							ds_list_add(deadEnds,j*roomsAcross+i);
 						} else {
 							// left, no up, no right, down
 							scr_spawn_walls(9);
-							ds_list_add(corridors,[i,j]);
+							ds_list_add(corridors,j*roomsAcross+i);
 						}
 					} else {
 						// left, no up, right
 						if (j+1 > roomsTall-1 || ds_grid_get(grid,i,j+1) == 0) {
 							// left, no up, right, no down
 							scr_spawn_walls(2);
-							ds_list_add(corridors,[i,j]);
+							ds_list_add(corridors,j*roomsAcross+i);
 						} else {
 							// left, no up, right, down
 							scr_spawn_walls(11);
-							ds_list_add(corridors,[i,j]);
+							ds_list_add(corridors,j*roomsAcross+i);
 						}
 					}
 				} else {
@@ -215,22 +220,22 @@ for (var i = 0; i < roomsAcross; i++){
 						if (j+1 > roomsTall-1 || ds_grid_get(grid,i,j+1) == 0) {
 							// left, up, no right, no down
 							scr_spawn_walls(10);
-							ds_list_add(corridors,[i,j]);
+							ds_list_add(corridors,j*roomsAcross+i);
 						} else {
 							// left, up, no right, down
 							scr_spawn_walls(12);
-							ds_list_add(corridors,[i,j]);
+							ds_list_add(corridors,j*roomsAcross+i);
 						}
 					} else {
 						// left, up, right
 						if (j+1 > roomsTall-1 || ds_grid_get(grid,i,j+1) == 0) {
 							// left, up, right, no down
 							scr_spawn_walls(13);
-							ds_list_add(corridors,[i,j]);
+							ds_list_add(corridors,j*roomsAcross+i);
 						} else {
 							// left, up, right, down
 							scr_spawn_walls(0);
-							ds_list_add(corridors,[i,j]);
+							ds_list_add(corridors,j*roomsAcross+i);
 						}
 					}
 				}
@@ -240,52 +245,65 @@ for (var i = 0; i < roomsAcross; i++){
 }
 
 //removes center room from possible powerup and enemy spawn locations
-var temp = ds_list_find_index(deadEnds,[2,3]);
-if (temp == -1){
+var temp = ds_list_find_index(deadEnds,17);
+if (temp != -1){
 	ds_list_delete(deadEnds,temp);
 } else {
-	temp = ds_list_find_index(corridors,[2,3]);
-	if (temp == -1){
+	temp = ds_list_find_index(corridors,17);
+	if (temp != -1){
 		ds_list_delete(corridors,temp);
 	}
 }
 
 //checks that there are enough dead ends
 if (ds_list_size(deadEnds) < 2){
-	show_debug_message("Not enough dead ends");
+	//show_debug_message("Not enough dead ends");
 	game_restart();	
+	exit;
 }
 
-//Spawns enemies and powerups (has to be another loop because first loop deletes unconnected rooms)
+var randomRoom = -1;
+var randomRoomX = -1;
+var randomRoomY = -1;
 
 //Spawn one of each power up in random non-spawn room dead ends
 var index = irandom(ds_list_size(deadEnds)-1);
 randomRoom = ds_list_find_value(deadEnds,index);
+randomRoomX = randomRoom%roomsAcross;
+randomRoomY = floor(randomRoom/roomsAcross);
 ds_list_delete(deadEnds, index);
-instance_create_layer(randomRoom[0]*1024+450,randomRoom[1]*768+320, "Instances", obj_pickup_minigun);
+instance_create_layer(randomRoomX*1024+450,randomRoomY*768+320, "Instances", obj_pickup_minigun);
 
 index = irandom(ds_list_size(deadEnds)-1);
 randomRoom = ds_list_find_value(deadEnds,index);
+randomRoomX = randomRoom%roomsAcross;
+randomRoomY = floor(randomRoom/roomsAcross);
 ds_list_delete(deadEnds, index);
-instance_create_layer(randomRoom[0]*1024+450,randomRoom[1]*768+320, "Instances", obj_pickup_rocketlauncher);
+instance_create_layer(randomRoomX*1024+450,randomRoomY*768+320, "Instances", obj_pickup_rocketlauncher);
 
 //Spawns two towgre enemies in random non-spawn room corridors
 index = irandom(ds_list_size(corridors)-1);
 randomRoom = ds_list_find_value(corridors,index);
+randomRoomX = randomRoom%roomsAcross;
+randomRoomY = floor(randomRoom/roomsAcross);
 ds_list_delete(corridors, index);
-instance_create_layer(randomRoom[0]*1024+450,randomRoom[1]*768+320, "Instances", obj_enemy_towgre);
+instance_create_layer(randomRoomX*1024+450,randomRoomY*768+320, "Instances", obj_enemy_towgre);
 
 index = irandom(ds_list_size(corridors)-1);
 randomRoom = ds_list_find_value(corridors,index);
+randomRoomX = randomRoom%roomsAcross;
+randomRoomY = floor(randomRoom/roomsAcross);
 ds_list_delete(corridors, index);
-instance_create_layer(randomRoom[0]*1024+450,randomRoom[1]*768+320, "Instances", obj_enemy_towgre);
+instance_create_layer(randomRoomX*1024+450,randomRoomY*768+320, "Instances", obj_enemy_towgre);
 
 //Low chance that enemies (just towgres right now) will spawn in additional non-spawn room corridors
 while (ds_list_size(corridors) > 0){
 	index = irandom(ds_list_size(corridors)-1);
 	randomRoom = ds_list_find_value(corridors,index);
+	randomRoomX = randomRoom%roomsAcross;
+	randomRoomY = floor(randomRoom/roomsAcross);
 	ds_list_delete(corridors, index);
 	if (random(1) > .85){
-		instance_create_layer(randomRoom[0]*1024+450,randomRoom[1]*768+320, "Instances", obj_enemy_towgre);
+		instance_create_layer(randomRoomX*1024+450,randomRoomY*768+320, "Instances", obj_enemy_towgre);
 	}
 }
