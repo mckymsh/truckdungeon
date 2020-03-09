@@ -415,6 +415,14 @@
             }
         },
         {
+            "Key": "a8cb3d58-97e9-4239-9f3e-afbfc46bb114",
+            "Value": {
+                "id": "7aa668d6-d7ca-4f73-85ae-ffc08ebf791c",
+                "resourcePath": "sprites\\spr_saddle_track\\spr_saddle_track.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "a9188620-a624-4a5a-83ae-a1b53faf038b",
             "Value": {
                 "id": "8b5c82cf-fbd3-4143-8a6e-a746dca5e92a",
