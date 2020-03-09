@@ -9,7 +9,7 @@
         "204a3ba2-6697-4317-b01f-4ac4e5143c4c"
     ],
     "filterType": "GMSprite",
-    "folderName": "Sadletrack",
+    "folderName": "Saddletrack",
     "isDefaultView": false,
     "localisedFolderName": ""
 }
