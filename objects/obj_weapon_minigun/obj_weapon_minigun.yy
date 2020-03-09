@@ -180,20 +180,6 @@
             "value": "600",
             "varName": "overheat_time",
             "varType": 1
-        },
-        {
-            "id": "a0fdf5b5-ea76-4336-b994-e7cdc1c5e329",
-            "modelName": "GMObjectProperty",
-            "mvc": "1.0",
-            "listItems": null,
-            "multiselect": false,
-            "rangeEnabled": false,
-            "rangeMax": 10,
-            "rangeMin": 0,
-            "resourceFilter": 1023,
-            "value": "0",
-            "varName": "keyboard_aiming",
-            "varType": 3
         }
     ],
     "solid": false,
