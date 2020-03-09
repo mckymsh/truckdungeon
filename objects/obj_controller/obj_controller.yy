@@ -75,6 +75,20 @@
             "value": "90",
             "varName": "gameTimer",
             "varType": 1
+        },
+        {
+            "id": "1fa13abf-ba5c-4e00-b759-a6f45b5ae7f2",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "rm_dungeon",
+            "varName": "main_dungeon",
+            "varType": 5
         }
     ],
     "solid": false,
