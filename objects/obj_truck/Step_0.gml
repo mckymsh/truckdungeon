@@ -100,5 +100,3 @@ else
 	acceleration_ratio = 0.01;
 	max_forward_speed_ratio = 0.2;
 }
-
-

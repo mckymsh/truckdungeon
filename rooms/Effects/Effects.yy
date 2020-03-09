@@ -1,6 +1,6 @@
 
 {
-    "name": "rm_boss",
+    "name": "Effects",
     "id": "eb413769-4a53-4d85-83ef-487db3c08585",
     "creationCodeFile": "",
     "inheritCode": false,
@@ -13,7 +13,7 @@
     "layers": [
         {
             "__type": "GMRInstanceLayer_Model:#YoYoStudio.MVCFormat",
-            "name": "Effects",
+            "name": "Instances_1",
             "id": "def4499f-3913-41f3-a832-5099c630058d",
             "depth": 0,
             "grid_x": 32,
