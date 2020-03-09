@@ -143,14 +143,6 @@
             }
         },
         {
-            "Key": "25c22329-dd80-49c4-9754-f6c51ab441ab",
-            "Value": {
-                "id": "179632bf-a300-4ac4-b477-4dbb52e1420d",
-                "resourcePath": "rooms\\rm_test\\rm_test.yy",
-                "resourceType": "GMRoom"
-            }
-        },
-        {
             "Key": "262b9c84-9c70-4460-a7bb-3f8da8988014",
             "Value": {
                 "id": "55b18c94-eb98-434d-95e5-b66f0524be9c",
@@ -578,7 +570,7 @@
             "Key": "d115fd2e-344b-4a16-ab7f-6494f57138d9",
             "Value": {
                 "id": "9f1c61c7-6838-4e3c-8ef2-bf191aa6cb0a",
-                "resourcePath": "rooms\\rm_test2\\rm_test2.yy",
+                "resourcePath": "rooms\\rm_dungeon\\rm_dungeon.yy",
                 "resourceType": "GMRoom"
             }
         },
@@ -655,6 +647,14 @@
             }
         },
         {
+            "Key": "eb413769-4a53-4d85-83ef-487db3c08585",
+            "Value": {
+                "id": "2fe08708-f6d3-483e-811e-af1f8d66eb83",
+                "resourcePath": "rooms\\rm_boss\\rm_boss.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "eb5bc79a-35a9-413c-aedb-d628e661c065",
             "Value": {
                 "id": "35925d0f-ac19-4663-ab36-823568132e8b",
@@ -674,7 +674,7 @@
             "Key": "edf301d5-1460-4e40-b048-dccf3688201d",
             "Value": {
                 "id": "2407222d-5ac2-4339-b20f-0e6e49aa0776",
-                "resourcePath": "rooms\\rm_main\\rm_main.yy",
+                "resourcePath": "rooms\\rm_test\\rm_test.yy",
                 "resourceType": "GMRoom"
             }
         },

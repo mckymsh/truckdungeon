@@ -7,12 +7,12 @@ if(keyboard_check(vk_control))
 
 	if(keyboard_check(ord("B")))
 	{
-		// goto boss room
+		room_goto(rm_boss);
 	}
 	
 	if(keyboard_check(ord("T")))
 	{
-		// goto test room
+		room_goto(rm_test);
 	}
 	
 	if(keyboard_check(ord("G")))
