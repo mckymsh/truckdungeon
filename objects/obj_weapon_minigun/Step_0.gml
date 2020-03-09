@@ -1,15 +1,5 @@
-if(mouse_check_button_pressed(mb_left))
-{
-	image_speed = 1;
-	alarm[0] = initial_fire_delay;
-	alarm[1] = .75*overheat_time;
-	alarm[2] = overheat_time;
-	if(overheated)
-	{
-		canShoot = false;
-		alarm[0] = -1;
-	}
-}	
+
+
 if(mouse_check_button(mb_left))
 {
 	if(canShoot)
@@ -31,15 +21,9 @@ if(mouse_check_button(mb_left))
 	else
 	{
 		flash.visible = false;
-	}
-	
+	}	
 }
-if(mouse_check_button_released(mb_left))
-{
-	alarm[3] = cooldown_delay;
-}
-
-if(!mouse_check_button(mb_left))
+else
 {
 	flash.visible = false;
 	if(!overheated)
@@ -57,7 +41,12 @@ if(!mouse_check_button(mb_left))
 	{
 		image_speed = 1;
 	}
-	alarm[0] = -1; // cancels alarm
-	alarm[1] = -1;
-	alarm[2] = -1;
+	if(alarm[1] > 0)
+	{
+		alarm[1] = -1;
+	}
+	if(alarm[2] > 0)
+	{
+		alarm[2] = -1;
+	}
 }
