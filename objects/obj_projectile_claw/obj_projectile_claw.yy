@@ -83,6 +83,16 @@
             "enumb": 0,
             "eventtype": 7,
             "m_owner": "cf4396ae-a24c-4f30-9fdc-09dc08a47b2b"
+        },
+        {
+            "id": "0b325c19-66fc-4f6a-9324-291a3b65b426",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "f7527823-f5e2-466f-ad32-5a572d923dd6",
+            "enumb": 0,
+            "eventtype": 4,
+            "m_owner": "cf4396ae-a24c-4f30-9fdc-09dc08a47b2b"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
@@ -156,6 +166,34 @@
             "resourceFilter": 1023,
             "value": "0.75",
             "varName": "acceleration_ratio",
+            "varType": 0
+        },
+        {
+            "id": "034e41b8-5737-4790-8445-3f5f3ef5d194",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "camera_get_view_width(0)*0.75",
+            "varName": "breaking_distance",
+            "varType": 4
+        },
+        {
+            "id": "27106118-0eec-42ed-bdfe-19f497f2944f",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0.05",
+            "varName": "drag_speed_ratio",
             "varType": 0
         }
     ],

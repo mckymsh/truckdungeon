@@ -6,5 +6,6 @@ if(instance_exists(obj_projectile_claw))
 	}
 }
 
-var debris = instance_create_depth(x, y, depth, obj_towgre_destroyed);
-debris.image_angle = image_angle;
+alarm[0] = room_speed;
+
+obj_truck.hp -= collision_damage;

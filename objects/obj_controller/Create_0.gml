@@ -4,6 +4,12 @@ randomize();
 
 cursor_sprite = spr_reticle;
 
-truck = instance_create_layer(room_width/2, room_height/2, "Instances", obj_truck);
-// truck = instance_create_layer(view_wport[0]/2, view_hport[0]/2, "Instances", obj_truck);
+// truck = instance_create_layer(room_width/2, room_height/2, "Instances", obj_truck);
+truck = instance_create_layer(2560, 2688, "Instances", obj_truck);
+
 truck.direction = 90;
+
+if (room == rm_test2){
+	scr_create_grid();
+	alarm[0] = gameTimer*room_speed;
+}

@@ -103,6 +103,16 @@
             "enumb": 1,
             "eventtype": 2,
             "m_owner": "3e2527b9-0444-4988-981b-6aee4ac9f620"
+        },
+        {
+            "id": "712967b2-c160-4dee-a0d0-87e90b34ed5b",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "025e8c71-57b8-4da6-a51c-7e6e3b0c3255",
+            "enumb": 0,
+            "eventtype": 4,
+            "m_owner": "3e2527b9-0444-4988-981b-6aee4ac9f620"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
@@ -232,6 +242,48 @@
             "resourceFilter": 1023,
             "value": "0.01",
             "varName": "acceleration_ratio",
+            "varType": 0
+        },
+        {
+            "id": "5e929b80-0e5b-4b83-bec8-cf916a42e0a8",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "25",
+            "varName": "collision_damage",
+            "varType": 0
+        },
+        {
+            "id": "0d9c42c5-f3b8-4528-a9e2-f6fa141ea29c",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0.8",
+            "varName": "initial_fire_delay_ratio",
+            "varType": 0
+        },
+        {
+            "id": "3b55c527-3aeb-4de9-8ab5-51ae8c12bcd4",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "5",
+            "varName": "fire_frequency_ratio",
             "varType": 0
         }
     ],
