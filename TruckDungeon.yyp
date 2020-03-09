@@ -167,6 +167,14 @@
             }
         },
         {
+            "Key": "308b780e-1e52-4072-bc24-69c7cf452c07",
+            "Value": {
+                "id": "e08700b7-e33b-40c9-bdf6-a26c737e1a44",
+                "resourcePath": "sprites\\spr_dragon_tank_move\\spr_dragon_tank_move.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "332e2aa8-9e19-4b34-ac9b-ace67c3e5e14",
             "Value": {
                 "id": "9de96c67-0e1f-4fb6-9877-af2869f97a80",
@@ -324,6 +332,14 @@
                 "id": "829de54b-b4a4-484f-81c4-3c3d5c592477",
                 "resourcePath": "views\\8b09a28c-7507-4e30-bb72-51fb104aec51.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "8bdf210a-5b82-4774-9de8-690492f247f7",
+            "Value": {
+                "id": "31f9cdeb-7dc7-4eef-b366-e2e30f66df47",
+                "resourcePath": "objects\\obj_dragon_tank\\obj_dragon_tank.yy",
+                "resourceType": "GMObject"
             }
         },
         {
