@@ -14,12 +14,3 @@ if(mouse_check_button_pressed(mb_left))
 		alarm[3] = cooldown_delay;
 	}
 }
-
-if(!mouse_check_button_released(mb_left))
-{
-	if(overheated)
-	{
-		alarm[3] = cooldown_delay; // reset alarm
-	}
-	canShoot = false;
-}

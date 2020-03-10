@@ -1,5 +1,3 @@
-
-
 if(mouse_check_button(mb_left))
 {
 	if(canShoot)
@@ -28,6 +26,7 @@ else
 	flash.visible = false;
 	if(!overheated)
 	{
+		sprite_index = spr_weapon_minigun;
 		if(image_speed > 0.01)
 		{
 			image_speed *= 0.90;
@@ -40,13 +39,5 @@ else
 	else
 	{
 		image_speed = 1;
-	}
-	if(alarm[1] > 0)
-	{
-		alarm[1] = -1;
-	}
-	if(alarm[2] > 0)
-	{
-		alarm[2] = -1;
 	}
 }
