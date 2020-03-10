@@ -191,6 +191,14 @@
             }
         },
         {
+            "Key": "2a42e601-a5e7-4097-aa4f-449f68cbf1d1",
+            "Value": {
+                "id": "95cce9ea-fa41-45e9-b230-74922b154204",
+                "resourcePath": "views\\2a42e601-a5e7-4097-aa4f-449f68cbf1d1.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "2c798266-6def-4488-80c7-6e9f959199d8",
             "Value": {
                 "id": "3852f652-5c64-4cc4-a048-348195044e84",
@@ -252,14 +260,6 @@
                 "id": "9d039e97-12df-4a8a-bcb7-015f88fce8e8",
                 "resourcePath": "objects\\obj_truck_smoke\\obj_truck_smoke.yy",
                 "resourceType": "GMObject"
-            }
-        },
-        {
-            "Key": "47bfa32a-ea84-47ba-adf2-b525675e3594",
-            "Value": {
-                "id": "6e68fa8f-19fb-4c35-bc76-8342990b157b",
-                "resourcePath": "scripts\\scr_towgre_fire_claw\\scr_towgre_fire_claw.yy",
-                "resourceType": "GMScript"
             }
         },
         {
@@ -415,6 +415,14 @@
             }
         },
         {
+            "Key": "8d3e6ac2-a053-4e47-b749-bf5e3cd74c2b",
+            "Value": {
+                "id": "98c72681-76ea-40ed-b9f7-e815372a3344",
+                "resourcePath": "views\\8d3e6ac2-a053-4e47-b749-bf5e3cd74c2b.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "9210414c-1650-4de4-93e4-1bce915a30d9",
             "Value": {
                 "id": "bc5dd332-8eb3-4118-b53c-27ad43007b4b",
@@ -452,6 +460,14 @@
                 "id": "39bfc260-c55c-4fdf-a721-17de57d4531f",
                 "resourcePath": "sprites\\spr_weapon_minigun_overheat\\spr_weapon_minigun_overheat.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "a2161237-58ed-4ccb-a4b4-9975519d8cb0",
+            "Value": {
+                "id": "2c2bf30f-8002-4a8e-a17b-d1e0e71729a9",
+                "resourcePath": "views\\a2161237-58ed-4ccb-a4b4-9975519d8cb0.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
@@ -516,6 +532,14 @@
                 "id": "c0cabfab-08b7-46ad-9d20-2d26ac5fdae4",
                 "resourcePath": "objects\\obj_weapon_minigun\\obj_weapon_minigun.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "b2104ec7-8fe1-4fa5-8774-0bf5a0f6c8fe",
+            "Value": {
+                "id": "dfe8f14a-846e-4a71-9e73-77b5169b14d0",
+                "resourcePath": "views\\b2104ec7-8fe1-4fa5-8774-0bf5a0f6c8fe.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
@@ -751,6 +775,14 @@
             }
         },
         {
+            "Key": "e5c6353a-c44a-4e86-8a22-5a4eb3017f08",
+            "Value": {
+                "id": "4b57bf08-d7b1-4c29-a146-bf69b215c5ec",
+                "resourcePath": "views\\e5c6353a-c44a-4e86-8a22-5a4eb3017f08.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "e6200e18-8be7-425e-bb54-f9365cd9ce15",
             "Value": {
                 "id": "528a5f13-ffff-408d-8c82-89d6eefbe59c",
@@ -928,7 +960,6 @@
         }
     ],
     "script_order": [
-        "47bfa32a-ea84-47ba-adf2-b525675e3594",
         "cfa4f099-6da7-4c82-9561-74a4e1d421a7",
         "c32e793e-089b-4ea2-b0c5-f5ac10521fc1",
         "ec8f2e31-035e-4730-a862-1f9babd7a1b4",
