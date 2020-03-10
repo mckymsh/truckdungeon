@@ -10,4 +10,7 @@ if(instance_exists(obj_projectile_claw))
 
 alarm[0] = room_speed;
 
-obj_truck.hp -= collision_damage;
+if (alarm[5] < 0){
+	obj_truck.hp -= collision_damage;
+	alarm[5] = 3;
+}
