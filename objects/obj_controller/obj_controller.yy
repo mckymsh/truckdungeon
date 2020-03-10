@@ -77,7 +77,7 @@
             "varType": 1
         },
         {
-            "id": "1fa13abf-ba5c-4e00-b759-a6f45b5ae7f2",
+            "id": "f5a2c56d-fa37-499a-9d4c-9a41edd345e3",
             "modelName": "GMObjectProperty",
             "mvc": "1.0",
             "listItems": null,
@@ -88,10 +88,10 @@
             "resourceFilter": 1023,
             "value": "rm_dungeon",
             "varName": "main_dungeon",
-            "varType": 5
+            "varType": 0
         },
         {
-            "id": "45e3c057-73fa-4f05-a32a-74740d177205",
+            "id": "05e56545-4086-4288-b87d-30ae012e7836",
             "modelName": "GMObjectProperty",
             "mvc": "1.0",
             "listItems": null,
@@ -102,7 +102,7 @@
             "resourceFilter": 1023,
             "value": "rm_boss",
             "varName": "boss_room",
-            "varType": 5
+            "varType": 0
         }
     ],
     "solid": false,
