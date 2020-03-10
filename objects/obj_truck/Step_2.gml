@@ -13,3 +13,20 @@ else
 {
 	image_speed = 1;
 }
+
+if(!dead)
+{
+	if(hp <= 0)
+	{
+		show_debug_message("Uh oh we dead");
+		dead = true;
+	}
+}
+else
+{
+	instance_destroy(obj_projectile_claw, false);
+	instance_destroy(obj_enemy_towgre, false);
+	instance_destroy(obj_saddle_track, false);
+	room_goto(rm_title);
+	alarm[11] = 5*room_speed;
+}

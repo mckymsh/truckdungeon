@@ -195,6 +195,20 @@
             "value": "0.05",
             "varName": "drag_speed_ratio",
             "varType": 0
+        },
+        {
+            "id": "33b8767f-36e2-4bbe-bae0-a0ccc2828f55",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "noone",
+            "varName": "source_towgre",
+            "varType": 5
         }
     ],
     "solid": false,

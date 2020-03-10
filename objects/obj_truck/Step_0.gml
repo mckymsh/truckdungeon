@@ -82,18 +82,21 @@ if(keyboard_check_pressed(vk_space))
 	}	
 }
 
-if(stuck)
+if(stuck && !dead)
 {
 	acceleration_ratio = 0.005;
 	max_forward_speed_ratio = 0.1;
 
 	var claw = instance_nearest(x, y, obj_projectile_claw)
-	var towgre = claw.source_towgre;
-	motion_add
-	(
-		point_direction(x, y, towgre.x, towgre.y), 
-		claw.drag_speed_ratio*room_speed
-	);
+	if(claw != undefined)
+	{
+		var towgre = claw.source_towgre;
+		motion_add
+		(
+			point_direction(x, y, towgre.x, towgre.y), 
+			claw.drag_speed_ratio*room_speed
+		);
+	}
 }
 else
 {
@@ -102,9 +105,11 @@ else
 }
 
 // Collision (Mitch :))
-if (place_meeting(x+1, y, obj_wallBlock)) {
+/*
+if (place_meeting(x+1, y, obj_borderBlock)) {
 	speed = -speed
 }
-if (place_meeting(x, y+1, obj_wallBlock)) {
+if (place_meeting(x, y+1, obj_borderBlock)) {
 	speed = -speed
 }
+*/
