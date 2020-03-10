@@ -75,6 +75,34 @@
             "value": "90",
             "varName": "gameTimer",
             "varType": 1
+        },
+        {
+            "id": "f5a2c56d-fa37-499a-9d4c-9a41edd345e3",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "rm_dungeon",
+            "varName": "main_dungeon",
+            "varType": 0
+        },
+        {
+            "id": "05e56545-4086-4288-b87d-30ae012e7836",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "rm_boss",
+            "varName": "boss_room",
+            "varType": 0
         }
     ],
     "solid": false,
