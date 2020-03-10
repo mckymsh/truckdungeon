@@ -1,1 +1,1 @@
-speed = -speed * 2
+scr_collision_bounce();

@@ -271,6 +271,14 @@
             }
         },
         {
+            "Key": "5bffe197-26d1-4e1a-80dc-8249d50a4ae1",
+            "Value": {
+                "id": "c35cab7f-e7a2-4857-8b57-7c7090f77f03",
+                "resourcePath": "scripts\\scr_collision_bounce\\scr_collision_bounce.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "5f4ff801-a2fc-466d-bba3-8ab1cc623e64",
             "Value": {
                 "id": "f2e7dd3c-1d64-4e72-bd70-9bd10b329b80",
