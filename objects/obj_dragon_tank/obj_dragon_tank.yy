@@ -93,6 +93,16 @@
             "enumb": 0,
             "eventtype": 4,
             "m_owner": "03eb884d-ae11-44cf-baba-169ae3e47872"
+        },
+        {
+            "id": "4ce877c4-dcba-43e7-89e1-da1a1ee70a30",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 2,
+            "eventtype": 2,
+            "m_owner": "03eb884d-ae11-44cf-baba-169ae3e47872"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
@@ -136,8 +146,22 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "5000",
+            "value": "10000",
             "varName": "hp",
+            "varType": 0
+        },
+        {
+            "id": "6880c198-799c-46c1-89e4-230a0fdb580b",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "400",
+            "varName": "missileCooldown",
             "varType": 0
         }
     ],
