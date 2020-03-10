@@ -1,3 +1,4 @@
+draw_set_colour(c_white);
 if (room == main_dungeon){
 	draw_text(
 		5+camera_get_view_x(view_camera[0]),
