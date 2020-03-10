@@ -1,7 +1,5 @@
 randomize();
 
-
-
 // truck = instance_create_layer(room_width/2, room_height/2, "Instances", obj_truck);
 truck = instance_create_layer(2560, 2688, "Instances", obj_truck);
 

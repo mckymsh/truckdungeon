@@ -82,7 +82,7 @@ if(keyboard_check_pressed(vk_space))
 	}	
 }
 
-if(stuck && !dead)
+if(stuck && !dying)
 {
 	acceleration_ratio = 0.005;
 	max_forward_speed_ratio = 0.1;

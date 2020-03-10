@@ -281,7 +281,7 @@ randomRoomY = floor(randomRoom/roomsAcross);
 ds_list_delete(deadEnds, index);
 instance_create_layer(randomRoomX*1024+450,randomRoomY*768+320, "Instances", obj_pickup_rocketlauncher);
 
-//Spawns two towgre enemies in random non-spawn room corridors
+//Spawns one towgre enemies in random non-spawn room corridors
 index = irandom(ds_list_size(corridors)-1);
 randomRoom = ds_list_find_value(corridors,index);
 randomRoomX = randomRoom%roomsAcross;
@@ -294,16 +294,36 @@ randomRoom = ds_list_find_value(corridors,index);
 randomRoomX = randomRoom%roomsAcross;
 randomRoomY = floor(randomRoom/roomsAcross);
 ds_list_delete(corridors, index);
-instance_create_layer(randomRoomX*1024+450,randomRoomY*768+320, "Instances", obj_enemy_towgre);
+instance_create_layer(randomRoomX*1024+450,randomRoomY*768+320, "Instances", obj_saddle_track);
 
-//Low chance that enemies (just towgres right now) will spawn in additional non-spawn room corridors
-while (ds_list_size(corridors) > 0){
+index = irandom(ds_list_size(corridors)-1);
+randomRoom = ds_list_find_value(corridors,index);
+randomRoomX = randomRoom%roomsAcross;
+randomRoomY = floor(randomRoom/roomsAcross);
+ds_list_delete(corridors, index);
+instance_create_layer(randomRoomX*1024+450,randomRoomY*768+320, "Instances", obj_saddle_track);
+
+//Low chance that enemies will spawn in additional non-spawn room corridors
+//Max three towgres, max five saddletracks
+var towgreCount = 1;
+var saddleCount = 2;
+while (ds_list_size(corridors) > 0 && (towgreCount < 3 || saddleCount < 5)){
 	index = irandom(ds_list_size(corridors)-1);
 	randomRoom = ds_list_find_value(corridors,index);
 	randomRoomX = randomRoom%roomsAcross;
 	randomRoomY = floor(randomRoom/roomsAcross);
 	ds_list_delete(corridors, index);
 	if (random(1) > .85){
-		instance_create_layer(randomRoomX*1024+450,randomRoomY*768+320, "Instances", obj_enemy_towgre);
+		if (towgreCount < 3 && saddleCount < 5){
+			if (irandom(1)){
+				instance_create_layer(randomRoomX*1024+450,randomRoomY*768+320, "Instances", obj_enemy_towgre);
+			} else {
+				instance_create_layer(randomRoomX*1024+450,randomRoomY*768+320, "Instances", obj_saddle_track);
+			}
+		} else if (towgreCount < 3) {
+			instance_create_layer(randomRoomX*1024+450,randomRoomY*768+320, "Instances", obj_enemy_towgre);
+		} else {
+			instance_create_layer(randomRoomX*1024+450,randomRoomY*768+320, "Instances", obj_saddle_track);
+		}
 	}
 }
