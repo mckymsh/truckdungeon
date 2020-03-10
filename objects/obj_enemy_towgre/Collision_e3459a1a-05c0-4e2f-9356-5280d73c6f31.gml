@@ -1,2 +1,2 @@
 alarm[0] = 1;
-speed = bounce_ratio * -speed;
+scr_collision_bounce();

@@ -79,6 +79,14 @@
             }
         },
         {
+            "Key": "14096232-7bd5-4741-a136-bd6868677856",
+            "Value": {
+                "id": "1804f1a9-bfff-435a-9202-d202a4e3597d",
+                "resourcePath": "sprites\\spr_titlescreen\\spr_titlescreen.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "171866a0-4316-4e22-ba23-e8bf3c3baac6",
             "Value": {
                 "id": "27b1d0bc-6448-474f-9b3f-852d1f1d7033",
@@ -268,6 +276,14 @@
                 "id": "ac25d0dd-5454-4b3a-a5ed-f78966eb6773",
                 "resourcePath": "sprites\\spr_truck_smoke\\spr_truck_smoke.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "5bffe197-26d1-4e1a-80dc-8249d50a4ae1",
+            "Value": {
+                "id": "c35cab7f-e7a2-4857-8b57-7c7090f77f03",
+                "resourcePath": "scripts\\scr_collision_bounce\\scr_collision_bounce.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -675,6 +691,14 @@
             "Value": {
                 "id": "2407222d-5ac2-4339-b20f-0e6e49aa0776",
                 "resourcePath": "rooms\\rm_test\\rm_test.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "f2e89e55-d68b-4438-83da-93479fdd2e71",
+            "Value": {
+                "id": "f1bdf722-b30a-43b9-a300-f9c31804860b",
+                "resourcePath": "rooms\\rm_title\\rm_title.yy",
                 "resourceType": "GMRoom"
             }
         },

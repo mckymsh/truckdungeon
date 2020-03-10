@@ -285,6 +285,20 @@
             "value": "5",
             "varName": "fire_frequency_ratio",
             "varType": 0
+        },
+        {
+            "id": "6684e076-56cf-49a9-86c2-358fe49fc3d3",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "noone",
+            "varName": "current_claw",
+            "varType": 5
         }
     ],
     "solid": false,

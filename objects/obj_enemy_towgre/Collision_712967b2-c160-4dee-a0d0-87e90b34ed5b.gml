@@ -1,3 +1,5 @@
+//scr_collision_bounce();
+
 if(instance_exists(obj_projectile_claw))
 {
 	if(current_claw != undefined)
