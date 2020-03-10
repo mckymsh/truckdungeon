@@ -331,7 +331,7 @@
             "rangeMin": 0,
             "resourceFilter": 1023,
             "value": "100",
-            "varName": "pointWorth",
+            "varName": "pointValue",
             "varType": 0
         }
     ],

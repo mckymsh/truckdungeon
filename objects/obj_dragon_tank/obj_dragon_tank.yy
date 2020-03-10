@@ -154,8 +154,8 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "10000",
-            "varName": "pointWorth",
+            "value": "2500",
+            "varName": "pointValue",
             "varType": 0
         }
     ],
