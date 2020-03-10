@@ -1,1 +1,2 @@
-// You win
+room = rm_victory
+instance_destroy(obj_truck)
