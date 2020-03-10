@@ -311,6 +311,14 @@
             }
         },
         {
+            "Key": "5ec4f027-c58e-4a6a-80de-7d421afd1ebd",
+            "Value": {
+                "id": "96a8acd8-64de-436e-a1d0-f2558194b09f",
+                "resourcePath": "sprites\\spr_fireball\\spr_fireball.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "5f4ff801-a2fc-466d-bba3-8ab1cc623e64",
             "Value": {
                 "id": "f2e7dd3c-1d64-4e72-bd70-9bd10b329b80",
@@ -388,6 +396,14 @@
                 "id": "bc5dd332-8eb3-4118-b53c-27ad43007b4b",
                 "resourcePath": "sprites\\spr_pickup_rocketlauncher\\spr_pickup_rocketlauncher.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "9359c0f7-f97e-4df3-96ef-44c9bc6af0d8",
+            "Value": {
+                "id": "b17bc20e-98e2-4787-ac77-11586b04b16e",
+                "resourcePath": "objects\\obj_fireball\\obj_fireball.yy",
+                "resourceType": "GMObject"
             }
         },
         {
