@@ -17,4 +17,9 @@ if (room == boss_room){
 		5+camera_get_view_y(view_camera[0]), 
 		"Hp: " + string(obj_truck.hp)
 	);
+	draw_text(
+		5+camera_get_view_x(view_camera[0]),
+		25+camera_get_view_y(view_camera[0]), 
+		"Dragon Tank Hp: " + string(obj_dragon_tank.hp)
+	);
 }
