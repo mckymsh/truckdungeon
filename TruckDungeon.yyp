@@ -687,6 +687,14 @@
             }
         },
         {
+            "Key": "ed550ba6-a8e6-4dfc-a866-0d17ed95017b",
+            "Value": {
+                "id": "91e63e7f-ac39-432a-a78f-16cf54b43ed6",
+                "resourcePath": "paths\\pth_dragon_tank\\pth_dragon_tank.yy",
+                "resourceType": "GMPath"
+            }
+        },
+        {
             "Key": "edf301d5-1460-4e40-b048-dccf3688201d",
             "Value": {
                 "id": "2407222d-5ac2-4339-b20f-0e6e49aa0776",

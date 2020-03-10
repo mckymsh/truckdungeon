@@ -4,7 +4,16 @@
     "mvc": "1.0",
     "name": "obj_dragon_tank",
     "eventList": [
-        
+        {
+            "id": "1611579b-2a44-495d-bebd-89d1d7bd33ba",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 0,
+            "m_owner": "03eb884d-ae11-44cf-baba-169ae3e47872"
+        }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
