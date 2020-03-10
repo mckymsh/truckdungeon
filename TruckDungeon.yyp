@@ -47,6 +47,14 @@
             }
         },
         {
+            "Key": "03eb884d-ae11-44cf-baba-169ae3e47872",
+            "Value": {
+                "id": "f6bb8584-f283-49f6-be8f-14f7edc5c230",
+                "resourcePath": "objects\\obj_dragon_tank\\obj_dragon_tank.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "07f08fbd-d695-4590-a2fe-cb7dd650635c",
             "Value": {
                 "id": "899704fe-3117-4c8a-acc4-626d890df368",
@@ -348,6 +356,14 @@
                 "id": "2a25700e-61cd-44c3-9681-b9e2db3f04d3",
                 "resourcePath": "views\\88394c4b-bf1c-4109-b021-2bab06c76573.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "8867a67d-6f12-401e-b66f-2d437bcb7135",
+            "Value": {
+                "id": "3a418e92-588d-41b7-87c7-f7ae76d12084",
+                "resourcePath": "rooms\\rm_bossy\\rm_bossy.yy",
+                "resourceType": "GMRoom"
             }
         },
         {
