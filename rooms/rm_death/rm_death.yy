@@ -2,7 +2,7 @@
 {
     "name": "rm_death",
     "id": "d1866cb1-6b84-47a6-aa6b-f6bc8cc77998",
-    "creationCodeFile": "",
+    "creationCodeFile": "RoomCreationCode.gml",
     "inheritCode": false,
     "inheritCreationOrder": false,
     "inheritLayers": false,
@@ -135,7 +135,7 @@
         "id": "10d79a2f-899e-4e6c-be53-9755e089b305",
         "clearDisplayBuffer": true,
         "clearViewBackground": false,
-        "enableViews": false,
+        "enableViews": true,
         "inheritViewSettings": false,
         "modelName": "GMRoomViewSettings",
         "mvc": "1.0"

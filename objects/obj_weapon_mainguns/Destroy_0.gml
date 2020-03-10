@@ -1,0 +1,1 @@
+instance_destroy(muzzle_flash, false);

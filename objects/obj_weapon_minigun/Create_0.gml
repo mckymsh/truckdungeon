@@ -8,7 +8,7 @@ flash = instance_create_depth
 	x+lengthdir_x(40,image_angle), 
 	y+lengthdir_y(40,image_angle),
 	depth-1, 
-	obj_maingun_muzzle_flash
+	muzzle_flash
 )
 flash.visible = false;
 flash.image_angle = image_angle;

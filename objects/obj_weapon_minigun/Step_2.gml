@@ -27,4 +27,8 @@ if(mouse_check_button_released(mb_left))
 if(!mouse_check_button(mb_left))
 {
 	canShoot = false;
+	if(alarm[4] < 0)
+	{
+		alarm[4] = 0.25 * cooldown_delay;
+	}
 }

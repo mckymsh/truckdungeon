@@ -73,6 +73,16 @@
             "enumb": 11,
             "eventtype": 2,
             "m_owner": "025e8c71-57b8-4da6-a51c-7e6e3b0c3255"
+        },
+        {
+            "id": "d5137fa0-4e7c-4dbb-b6c8-763d25a72370",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 1,
+            "m_owner": "025e8c71-57b8-4da6-a51c-7e6e3b0c3255"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
@@ -276,6 +286,20 @@
         },
         {
             "id": "f7300e4c-55b2-4f6a-95d0-aed60fc477fe",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "dying",
+            "varType": 3
+        },
+        {
+            "id": "51600687-611e-43e6-9de7-dd1223f51c59",
             "modelName": "GMObjectProperty",
             "mvc": "1.0",
             "listItems": null,

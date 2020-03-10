@@ -26,7 +26,6 @@ else
 	flash.visible = false;
 	if(!overheated)
 	{
-		sprite_index = spr_weapon_minigun;
 		if(image_speed > 0.01)
 		{
 			image_speed *= 0.90;
