@@ -18,9 +18,9 @@ if (alarm[6] < 0){
 	} else {
 		if (other.y > y){
 			if (direction < 180){
-				speed = (other.speed-speed - sign(speed));
-			} else {
 				speed = (-other.speed-speed - sign(speed));
+			} else {
+				speed = (other.speed-speed - sign(speed));
 			}
 		} else {
 			if (direction < 180){

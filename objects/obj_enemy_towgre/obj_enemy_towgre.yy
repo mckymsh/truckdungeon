@@ -162,7 +162,7 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "101",
+            "value": "100",
             "varName": "hp",
             "varType": 1
         },
@@ -319,6 +319,20 @@
             "value": "noone",
             "varName": "current_claw",
             "varType": 5
+        },
+        {
+            "id": "79455e1f-5283-471d-8aea-81bea7747ada",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "100",
+            "varName": "pointWorth",
+            "varType": 0
         }
     ],
     "solid": false,

@@ -261,6 +261,20 @@
             "value": "250",
             "varName": "hp",
             "varType": 0
+        },
+        {
+            "id": "d7fd8f27-221f-43bf-afec-00c5d7f6023f",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "500",
+            "varName": "pointWorth",
+            "varType": 0
         }
     ],
     "solid": false,

@@ -163,6 +163,20 @@
             "value": "400",
             "varName": "missileCooldown",
             "varType": 0
+        },
+        {
+            "id": "a896aff9-8893-402d-a16a-f519d3bfec75",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "10000",
+            "varName": "pointWorth",
+            "varType": 0
         }
     ],
     "solid": false,
