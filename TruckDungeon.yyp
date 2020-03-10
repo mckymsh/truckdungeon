@@ -567,14 +567,6 @@
             }
         },
         {
-            "Key": "c9203e3c-046d-4b27-9698-c8cebbe524f7",
-            "Value": {
-                "id": "5080b281-6e5e-496e-bf21-866ccd648181",
-                "resourcePath": "views\\c9203e3c-046d-4b27-9698-c8cebbe524f7.yy",
-                "resourceType": "GMFolder"
-            }
-        },
-        {
             "Key": "cc98d028-7bdd-4680-85f3-c87a7baa481e",
             "Value": {
                 "id": "4d93e6d1-c366-4197-9ecb-7c32414b3ab2",
@@ -676,6 +668,14 @@
                 "id": "3108f61c-1e09-46c0-bee5-99b184ed19ed",
                 "resourcePath": "sprites\\spr_maingun_muzzle_flash\\spr_maingun_muzzle_flash.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "dd5173a9-9e88-43f6-8423-e5a8238200f1",
+            "Value": {
+                "id": "149aa70c-0b1c-4375-b34f-9933f013421f",
+                "resourcePath": "views\\dd5173a9-9e88-43f6-8423-e5a8238200f1.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
