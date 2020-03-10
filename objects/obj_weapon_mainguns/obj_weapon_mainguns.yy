@@ -53,16 +53,6 @@
             "enumb": 1,
             "eventtype": 2,
             "m_owner": "d219bd5d-9ca2-40f4-91df-b7ff26be320d"
-        },
-        {
-            "id": "4f97f486-c6bd-4db4-8e9a-619cadd9d40d",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
-            "eventtype": 1,
-            "m_owner": "d219bd5d-9ca2-40f4-91df-b7ff26be320d"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
@@ -123,20 +113,6 @@
             "value": "1\/10",
             "varName": "fire_speed_ratio",
             "varType": 0
-        },
-        {
-            "id": "566425c9-795d-42f3-96a5-bb70e916f158",
-            "modelName": "GMObjectProperty",
-            "mvc": "1.0",
-            "listItems": null,
-            "multiselect": false,
-            "rangeEnabled": false,
-            "rangeMax": 10,
-            "rangeMin": 0,
-            "resourceFilter": 1023,
-            "value": "obj_maingun_muzzle_flash",
-            "varName": "muzzle_flash",
-            "varType": 5
         }
     ],
     "solid": false,
