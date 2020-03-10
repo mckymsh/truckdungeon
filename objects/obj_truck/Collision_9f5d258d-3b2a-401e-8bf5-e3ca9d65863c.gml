@@ -1,1 +1,1 @@
-speed = bounce_ratio * -speed;
+speed = -speed * 2

@@ -101,4 +101,10 @@ else
 	max_forward_speed_ratio = 0.2;
 }
 
-
+// Collision (Mitch :))
+if (place_meeting(x+1, y, obj_wallBlock)) {
+	speed = -speed
+}
+if (place_meeting(x, y+1, obj_wallBlock)) {
+	speed = -speed
+}
