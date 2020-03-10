@@ -362,7 +362,7 @@
             "Key": "8867a67d-6f12-401e-b66f-2d437bcb7135",
             "Value": {
                 "id": "3a418e92-588d-41b7-87c7-f7ae76d12084",
-                "resourcePath": "rooms\\rm_bossy\\rm_bossy.yy",
+                "resourcePath": "rooms\\rm_boss\\rm_boss.yy",
                 "resourceType": "GMRoom"
             }
         },
@@ -660,14 +660,6 @@
                 "id": "395fb46f-1fc3-4f6c-8b8f-c375ab7f4aa0",
                 "resourcePath": "objects\\obj_wallBlock\\obj_wallBlock.yy",
                 "resourceType": "GMObject"
-            }
-        },
-        {
-            "Key": "eb413769-4a53-4d85-83ef-487db3c08585",
-            "Value": {
-                "id": "2fe08708-f6d3-483e-811e-af1f8d66eb83",
-                "resourcePath": "rooms\\rm_boss\\rm_boss.yy",
-                "resourceType": "GMRoom"
             }
         },
         {
