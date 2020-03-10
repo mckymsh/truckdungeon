@@ -1,1 +1,1 @@
-room_goto(boss_room);
+room_goto(rm_boss);
