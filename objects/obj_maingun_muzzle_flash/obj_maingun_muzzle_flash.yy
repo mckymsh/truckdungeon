@@ -5,16 +5,6 @@
     "name": "obj_maingun_muzzle_flash",
     "eventList": [
         {
-            "id": "17c75418-28ab-4315-af16-6e3f34f366e2",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 7,
-            "eventtype": 7,
-            "m_owner": "8d3d5f1f-c96e-4769-9c32-1cac8ba26e85"
-        },
-        {
             "id": "883793a7-a731-466b-998f-1b18f684df12",
             "modelName": "GMEvent",
             "mvc": "1.0",
