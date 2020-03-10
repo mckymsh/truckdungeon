@@ -311,6 +311,14 @@
             }
         },
         {
+            "Key": "5ec4f027-c58e-4a6a-80de-7d421afd1ebd",
+            "Value": {
+                "id": "96a8acd8-64de-436e-a1d0-f2558194b09f",
+                "resourcePath": "sprites\\spr_fireball\\spr_fireball.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "5f4ff801-a2fc-466d-bba3-8ab1cc623e64",
             "Value": {
                 "id": "f2e7dd3c-1d64-4e72-bd70-9bd10b329b80",
@@ -388,6 +396,14 @@
                 "id": "bc5dd332-8eb3-4118-b53c-27ad43007b4b",
                 "resourcePath": "sprites\\spr_pickup_rocketlauncher\\spr_pickup_rocketlauncher.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "9359c0f7-f97e-4df3-96ef-44c9bc6af0d8",
+            "Value": {
+                "id": "b17bc20e-98e2-4787-ac77-11586b04b16e",
+                "resourcePath": "objects\\obj_fireball\\obj_fireball.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -623,6 +639,14 @@
             }
         },
         {
+            "Key": "de6bf03b-f439-4223-9c08-6215abe3569b",
+            "Value": {
+                "id": "208a1c82-a366-4623-968a-d887dd5628a5",
+                "resourcePath": "objects\\obj_dragon_tank_missile\\obj_dragon_tank_missile.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "decef997-c38a-4e76-8bd9-7ed8c45f7737",
             "Value": {
                 "id": "574ce493-4801-4008-86cc-5c3ad5971913",
@@ -651,6 +675,14 @@
             "Value": {
                 "id": "528a5f13-ffff-408d-8c82-89d6eefbe59c",
                 "resourcePath": "sprites\\spr_logo\\spr_logo.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "e93c7bf6-3aa9-4184-8573-320cb00d1e5f",
+            "Value": {
+                "id": "ef0107bc-e5d9-4936-b235-c27f3557bf71",
+                "resourcePath": "sprites\\spr_dragon_tank_missile\\spr_dragon_tank_missile.yy",
                 "resourceType": "GMSprite"
             }
         },
