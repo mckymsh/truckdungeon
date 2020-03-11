@@ -2,7 +2,7 @@ if (room == rm_title){
 	room = rm_dungeon;
 } else if (room == rm_victory){
 	room = rm_dungeon;
-	obj_truck.hp = 100;
+	obj_truck.hp = obj_truck.default_hp;
 	with(obj_controller){
 		instance_destroy();	
 	}
