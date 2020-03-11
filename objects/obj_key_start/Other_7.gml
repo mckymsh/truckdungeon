@@ -8,7 +8,7 @@ if (room == rm_title){
 	}
 } else if (room == rm_death){
 	room = rm_dungeon;
-	obj_truck.hp = 100;
+	obj_truck.hp = obj_truck.default_hp;
 	score = 0;
 	obj_truck.dying = false;
 	obj_truck.dead = false;

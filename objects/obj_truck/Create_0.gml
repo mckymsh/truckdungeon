@@ -1,4 +1,4 @@
-depth = -1;
+depth = -10;
 
 enum weapon
 {
