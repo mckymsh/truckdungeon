@@ -24,6 +24,7 @@ if(keyboard_check(vk_control))
 	
 	if(keyboard_check(ord("G")))
 	{
+		cursor_sprite = spr_reticle;
 		obj_truck.have_minigun = true;
 		obj_truck.have_rocketlauncher = true;
 		obj_truck.current_weapon = weapon.minigun;
@@ -37,4 +38,13 @@ if(keyboard_check(vk_control))
 	{
 		obj_truck.hp = 100000;
 	}
+}
+
+if((room == rm_title) || (room == rm_death) || (room == rm_victory))
+{
+	window_set_cursor(cr_default);
+}
+else
+{
+	window_set_cursor(cr_none);
 }
