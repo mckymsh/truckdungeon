@@ -5,6 +5,11 @@ ds_grid_clear(grid, 0);
 
 var count = 1;
 var stack = ds_stack_create();
+
+for (var i = 0; i < 35; i++){
+	visited[i] = -10;
+}
+
 visited[0] = 17;
 var current;
 ds_grid_set(grid,2,3,1);
@@ -103,17 +108,29 @@ while(!ds_stack_empty(stack)){
 }
 
 //show_debug_message("Rooms");
-//show_debug_message(numRooms);
+show_debug_message(numRooms);
 //show_debug_message(rooms);
 
 if (numRooms < 10){
-	//show_debug_message("Too few rooms");
-	game_restart();
+	show_debug_message("Too few rooms");
+	with(visible == true){
+		with (!object_controller){
+			instance_destroy()
+		}
+	}
+	randomize();
+	scr_create_grid();
 	exit;
 }
 if (numRooms > 25){
-	//show_debug_message("Too many rooms");
-	game_restart();
+	show_debug_message("Too many rooms");
+	with(visible == true){
+		with (!object_controller){
+			instance_destroy()
+		}
+	}
+	randomize();
+	scr_create_grid();
 	exit;
 }
 
@@ -257,8 +274,14 @@ if (temp != -1){
 
 //checks that there are enough dead ends
 if (ds_list_size(deadEnds) < 2){
-	//show_debug_message("Not enough dead ends");
-	game_restart();	
+	show_debug_message("Not enough dead ends");
+	with(visible == true){
+		with (!object_controller){
+			instance_destroy()
+		}
+	}
+	randomize();
+	scr_create_grid();
 	exit;
 }
 
