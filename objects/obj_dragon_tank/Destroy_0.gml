@@ -1,4 +1,4 @@
 room = rm_victory
-instance_destroy(obj_truck)
+//instance_destroy(obj_truck)
 
 score += pointValue;

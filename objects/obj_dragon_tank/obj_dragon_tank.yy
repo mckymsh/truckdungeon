@@ -103,6 +103,26 @@
             "enumb": 2,
             "eventtype": 2,
             "m_owner": "03eb884d-ae11-44cf-baba-169ae3e47872"
+        },
+        {
+            "id": "7c3b3c32-6ff8-45fc-92c1-cabad93b54c6",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "025e8c71-57b8-4da6-a51c-7e6e3b0c3255",
+            "enumb": 0,
+            "eventtype": 4,
+            "m_owner": "03eb884d-ae11-44cf-baba-169ae3e47872"
+        },
+        {
+            "id": "d4cda284-76e8-4d3a-ad2d-0714406f88bc",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 7,
+            "eventtype": 2,
+            "m_owner": "03eb884d-ae11-44cf-baba-169ae3e47872"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
@@ -177,6 +197,20 @@
             "value": "2500",
             "varName": "pointValue",
             "varType": 0
+        },
+        {
+            "id": "80b23a7f-d593-4d25-a6eb-87de4fedd9b4",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "75",
+            "varName": "collision_damage",
+            "varType": 1
         }
     ],
     "solid": false,

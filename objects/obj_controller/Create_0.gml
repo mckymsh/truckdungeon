@@ -9,7 +9,12 @@ if (room == main_dungeon){
 
 // truck = instance_create_layer(room_width/2, room_height/2, "Instances", obj_truck);
 if room != rm_boss {
-	instance_create_layer(2560, 2688, "Instances", obj_truck);}
+	show_debug_message(global.firstTime)
+	if (global.firstTime == true){
+		global.firstTime = false;
+		instance_create_layer(2560, 2688, "Instances", obj_truck);
+	}
+}
 else {
 	obj_truck.x = room_width/2
 	obj_truck.y = room_height/2 + 40

@@ -12,5 +12,5 @@ alarm[0] = room_speed;
 
 if (alarm[5] < 0){
 	obj_truck.hp -= collision_damage;
-	alarm[5] = 3;
+	alarm[5] = 30;
 }

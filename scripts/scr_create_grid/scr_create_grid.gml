@@ -22,6 +22,10 @@ var checking;
 rooms[0] = -1;
 var numRooms = 0;
 
+with(obj_borderBlock){
+	instance_destroy();
+}
+
 while(!ds_stack_empty(stack)){
 	current = ds_stack_pop(stack);
 	if ((current-1) % roomsAcross != roomsAcross - 1 && current-1 > -1){
@@ -265,9 +269,6 @@ if (temp != -1){
 //checks that there are enough dead ends
 if (ds_list_size(deadEnds) < 2){
 	show_debug_message("Not enough dead ends");
-	with(obj_borderBlock){
-		instance_destroy();
-	}
 	randomize();
 	scr_create_grid();
 	exit;

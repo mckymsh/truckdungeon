@@ -1,6 +1,6 @@
 if (alarm[6] < 0){
 	obj_truck.hp -= collision_damage;
-	alarm[6] = 3;
+	alarm[6] = 30;
 }
 
 if (state == Aggro.charge){

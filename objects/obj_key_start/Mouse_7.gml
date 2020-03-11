@@ -1,1 +1,1 @@
-if room = rm_victory game_restart()
+//if room = rm_victory game_restart()

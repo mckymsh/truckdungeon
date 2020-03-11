@@ -34,5 +34,5 @@ if (alarm[6] < 0){
 	alarm[6] = 3;
 } else if (alarm[6] < 3){
 	speed = temp;
-	show_debug_message(speed);
+	//show_debug_message(speed);
 }
