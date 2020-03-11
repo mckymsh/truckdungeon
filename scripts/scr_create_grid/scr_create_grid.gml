@@ -113,22 +113,12 @@ show_debug_message(numRooms);
 
 if (numRooms < 10){
 	show_debug_message("Too few rooms");
-	with(visible == true){
-		with (!object_controller){
-			instance_destroy()
-		}
-	}
 	randomize();
 	scr_create_grid();
 	exit;
 }
 if (numRooms > 25){
 	show_debug_message("Too many rooms");
-	with(visible == true){
-		with (!object_controller){
-			instance_destroy()
-		}
-	}
 	randomize();
 	scr_create_grid();
 	exit;
@@ -275,10 +265,8 @@ if (temp != -1){
 //checks that there are enough dead ends
 if (ds_list_size(deadEnds) < 2){
 	show_debug_message("Not enough dead ends");
-	with(visible == true){
-		with (!object_controller){
-			instance_destroy()
-		}
+	with(obj_borderBlock){
+		instance_destroy();
 	}
 	randomize();
 	scr_create_grid();
