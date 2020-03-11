@@ -24,7 +24,6 @@ if(!dying)
 		instance_destroy(obj_projectile_claw, false);
 		instance_destroy(obj_enemy_towgre, false);
 		instance_destroy(obj_saddle_track, false);
-		instance_destroy(obj_weapon_mainguns, false);
 		
 		room_goto(rm_death);
 	}
