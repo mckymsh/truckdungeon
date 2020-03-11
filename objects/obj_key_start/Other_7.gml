@@ -15,7 +15,7 @@ if (room == rm_title){
 	obj_truck.x = 2500;
 	obj_truck.y = 2688;
 	obj_truck.stuck = false;
-	instance_create_depth(obj_truck.x, obj_truck.y, depth-1, obj_weapon_mainguns);
+	instance_create_depth(obj_truck.x, obj_truck.y, obj_truck.depth-1, obj_weapon_mainguns);
 	with(obj_controller){
 		instance_destroy();	
 	}
