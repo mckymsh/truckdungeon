@@ -302,9 +302,9 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "10",
+            "value": "default_hp",
             "varName": "hp",
-            "varType": 0
+            "varType": 4
         },
         {
             "id": "a9bd30e2-2e3a-47a2-95b1-3694d8b14f9d",
