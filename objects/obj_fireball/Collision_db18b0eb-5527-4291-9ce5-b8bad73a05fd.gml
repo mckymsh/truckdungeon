@@ -1,2 +1,2 @@
-obj_truck.hp -= 2
+obj_truck.hp -= damage
 instance_destroy()

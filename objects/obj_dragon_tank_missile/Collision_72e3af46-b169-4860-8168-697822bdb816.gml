@@ -1,2 +1,2 @@
-obj_truck.hp -= 10
-instance_destroy()
+obj_truck.hp -= damage;
+instance_destroy();
