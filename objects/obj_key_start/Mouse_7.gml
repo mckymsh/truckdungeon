@@ -1,0 +1,1 @@
+if room = rm_victory game_restart()
