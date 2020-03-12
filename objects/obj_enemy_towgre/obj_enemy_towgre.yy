@@ -162,7 +162,7 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "100",
+            "value": "250",
             "varName": "hp",
             "varType": 1
         },
@@ -330,7 +330,7 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "100",
+            "value": "175",
             "varName": "pointValue",
             "varType": 0
         }
