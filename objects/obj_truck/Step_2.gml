@@ -24,8 +24,9 @@ if(!dying)
 		instance_destroy(obj_projectile_claw, false);
 		instance_destroy(obj_enemy_towgre, false);
 		instance_destroy(obj_saddle_track, false);
-				audio_stop_sound(snd_music_game_theme)
-		audio_play_sound(snd_music_death_theme,30,false)
+				audio_stop_sound(snd_music_game_theme);
+				audio_stop_sound(snd_music_bossfight);
+		audio_play_sound(snd_music_death_theme,30,false);
 		room_goto(rm_death);
 
 	}
