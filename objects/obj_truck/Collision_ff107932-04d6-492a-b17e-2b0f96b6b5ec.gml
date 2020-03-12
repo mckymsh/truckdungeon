@@ -1,4 +1,5 @@
 scr_collision_bounce();
+audio_play_sound(snd_truck_collision,30,false)
 //if (alarm[7] < 0){
 //	show_debug_message(other.x)
 //	show_debug_message(other.y)

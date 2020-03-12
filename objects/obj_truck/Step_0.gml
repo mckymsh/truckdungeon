@@ -1,5 +1,10 @@
+if(keyboard_check_pressed(ord("W"))) {
+	audio_play_sound(snd_truck_move_start,30,false)
+}
 if(keyboard_check(ord("W")))
 {
+	audio_play_sound(snd_truck_move_continue,20,false)
+	
 	speed += acceleration_ratio*room_speed;	
 }
 if(keyboard_check(ord("S")))

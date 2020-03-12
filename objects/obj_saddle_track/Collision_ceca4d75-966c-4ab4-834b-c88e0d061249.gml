@@ -9,3 +9,4 @@ if (state == Aggro.charge){
 	sprite_index = spr_saddle_track_dizzy
 	image_speed = .4
 } 
+audio_play_sound(snd_horse_collision,30,false)

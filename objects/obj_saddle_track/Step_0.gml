@@ -65,6 +65,7 @@ if (state == Aggro.patrol){
 }
 else if (state == Aggro.startup) {
 	if (canKickDust == true){
+		audio_play_sound(snd_horse_charge,30,false)
 		canKickDust = false
 		alarm[3] = 5
 		instance_create_layer(x,y,"Instances",obj_dust)
@@ -90,7 +91,7 @@ else if (state == Aggro.startup) {
 	}
 	alarm[5] = 60
 	canStartCharge = false
-	
+	audio_play_sound(snd_horse_running,30,false)
 //slows down backup speed a bit every frame, so eventually
 //it backs up at a speed of 1
 } else if (state == Aggro.dizzy) {

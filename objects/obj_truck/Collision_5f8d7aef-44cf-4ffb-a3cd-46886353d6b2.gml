@@ -6,3 +6,4 @@ if (alarm[5] < 0){
 } else if (alarm[5] < 3){
 	speed = temp;
 }
+audio_play_sound(snd_truck_collision,30,false)
