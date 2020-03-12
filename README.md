@@ -1,16 +1,23 @@
-# truckdungeon
+# Truck Dungeon
+
+##Team Galaga
+
+* John Hutchinson
+* Mickey Nash
+* Mitchell Bath
+* Paul John
 
 ##Gameplay
-Shoot the enemies, collect the weapons, face the boss. You have 90 seconds to find and collect the bigger weapons before you get dropped into the final dungeon to face the Dragon. The Dragon Tank, that is!
+Shoot the enemies, collect the weapons, face the boss. You have 90 seconds to find and collect the bigger weapons from the edges of the maze before you get dropped into the final dungeon to face the Dragon. The Dragon Tank, that is!
 
 ##Controls
-W - Accelerate
-S - Brakes/Reverse
-A/D - Steer L/R
-Mouse - Aim Primary Weapon
-Left Click - Primary Weapon
-Right Click - Hood Guns
-Spacebar - Swap weapons (if you have 'em!)
+* W - Accelerate
+* S - Brakes/Reverse
+* A/D - Steer L/R
+* Mouse - Aim Primary Weapon
+* Left Click - Primary Weapon
+* Right Click - Hood Guns
+* Spacebar - Swap weapons (if you have 'em!)
 
 ##Cheats
 Press Control +
@@ -20,3 +27,20 @@ Press Control +
 * G - All Guns
 * H - Health to 100,000
 * T - Warp to Test Room (buggy! not for actual gameplay!)
+
+##Licensing
+
+###Title Screen Background: 
+https://www.freeimages.com/photo/wheel-of-mercedes-1252843
+
+###Sounds:
+* Sound effects: https://phoenix1291.itch.io/sound-effects-pack-2
+* Sound effects 2:https://capnlove.itch.io/s01l-sp-nov17
+* Sound effects 3:https://harvey656.itch.io/8-bit-game-sound-effects-collection
+
+###Soundtrack:
+* All themes: https://arcofdream.itch.io/monolith-ost
+* Main Menu theme: https://arcofdream.bandcamp.com/track/challenger
+* In Game Theme: https://arcofdream.bandcamp.com/track/monolith
+* Boss Fight Music:https://arcofdream.bandcamp.com/track/hopeful-feeling
+* Victory Theme:  https://arcofdream.bandcamp.com/track/against-all-odds
