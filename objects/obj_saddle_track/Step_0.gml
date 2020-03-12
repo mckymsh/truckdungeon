@@ -37,7 +37,9 @@ if (state == Aggro.patrol){
 	//checking if the truck crosses the sprite's x or y axis
 	horizontalMatch = (abs(y - obj_truck.y) < sprite_height/2)
 	verticalMatch = (abs(x - obj_truck.x) < sprite_width/2)
-	if (horizontalMatch || verticalMatch) {
+	horizontalLimit = abs(x - obj_truck.x) < 1000
+    veritcalLimit = abs(y - obj_truck.y) < 1000
+    if ((horizontalMatch && horizontalLimit) || (verticalMatch && veritcalLimit)) {
 		state = Aggro.startup
 		alarm[0] = -1
 		alarm[1] = -1
