@@ -32,13 +32,18 @@ Press Control +
 
 ###Title Screen Background: 
 https://www.freeimages.com/photo/wheel-of-mercedes-1252843
+License: FreeImages.com Content License
 
 ###Sounds:
 * Sound effects: https://phoenix1291.itch.io/sound-effects-pack-2
+	* License: CC0
 * Sound effects 2:https://capnlove.itch.io/s01l-sp-nov17
+	* License: CC0
 * Sound effects 3:https://harvey656.itch.io/8-bit-game-sound-effects-collection
+	* License: CC0
 
 ###Soundtrack:
+* License: Creative Commons Attribution-NonCommercial
 * All themes: https://arcofdream.itch.io/monolith-ost
 * Main Menu theme: https://arcofdream.bandcamp.com/track/challenger
 * In Game Theme: https://arcofdream.bandcamp.com/track/monolith
