@@ -5,3 +5,4 @@ hspeed = 0
 vspeed = 0
 state = Aggro.patrol
 image_speed = 1
+audio_stop_sound(snd_horse_running)

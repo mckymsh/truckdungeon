@@ -33,3 +33,5 @@ if (room == rm_title){
 		instance_destroy();	
 	}
 }
+audio_stop_sound(snd_music_title_theme)
+audio_play_sound(snd_music_game_theme,10,true)

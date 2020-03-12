@@ -36,3 +36,4 @@ if (alarm[6] < 0){
 	speed = temp;
 	//show_debug_message(speed);
 }
+audio_play_sound(snd_truck_collision,30,false)

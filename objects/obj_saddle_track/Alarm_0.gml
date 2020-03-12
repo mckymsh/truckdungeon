@@ -1,6 +1,7 @@
 /// @description Idle Walk
 // You can write your code in this editor
 if (state == Aggro.patrol) {
+	audio_play_sound(snd_horse_walk,30,false)
 //	pick a random direction, walk a step, then pause
 	rand = irandom(3)
 	image_angle = 90 * (rand)

@@ -18,6 +18,12 @@ if(mouse_check_button(mb_left))
 	}
 	else
 	{
+		if (canClick) {
+			canClick = false
+			audio_play_sound(snd_truck_fire_minigun_spinup,30,false)
+			alarm[5] = 5
+		}
+		
 		flash.visible = false;
 	}	
 }
