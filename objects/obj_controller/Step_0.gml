@@ -1,16 +1,17 @@
 //basic user inputs
-if (keyboard_check(ord("R")))
-{
-	game_restart()
-}
 
-if (keyboard_check(vk_escape)) {
-	game_end()
-}
 
 //Cheat Commands
 if(keyboard_check(vk_control))
 {
+	if (keyboard_check(ord("R")))
+	{
+		game_restart()
+	}
+
+	if (keyboard_check(vk_backspace)) {
+		game_end()
+	}
 
 	if(keyboard_check(ord("B")))
 	{
