@@ -49,3 +49,4 @@ License: FreeImages.com Content License
 * In Game Theme: https://arcofdream.bandcamp.com/track/monolith
 * Boss Fight Music:https://arcofdream.bandcamp.com/track/hopeful-feeling
 * Victory Theme:  https://arcofdream.bandcamp.com/track/against-all-odds
+* Death Theme: https://arcofdream.bandcamp.com/track/ruin
